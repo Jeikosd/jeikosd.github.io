@@ -1,0 +1,8 @@
+/.quarto/
+/_freeze/
+/docs/
+*.Rproj.user
+.Rhistory
+.RData
+.DS_Store
+Thumbs.db

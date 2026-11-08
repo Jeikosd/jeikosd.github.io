@@ -1,0 +1,9 @@
+---
+title: "Welcome to my blog"
+author: "Jeison Mesa"
+date: "2026-07-10"
+categories: [news]
+image: "image.jpg"
+---
+
+First post — more coming soon.

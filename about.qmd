@@ -1,0 +1,32 @@
+---
+title: "About"
+---
+
+## Bio
+
+[Escribe tu bio aquí — reemplaza este texto]
+
+## Experience
+
+### Industry
+
+[Describe experiencia industria]
+
+### Academia
+
+[Describe experiencia académica]
+
+## Education
+
+- **[Título más alto]** — [Institución], [Año]
+- **[Título anterior]** — [Institución], [Año]
+
+## Skills
+
+**Languages & Tools:** R, Python, SQL, Git
+**Methods:** Statistical modeling, Machine learning, Bayesian inference
+**Visualization:** ggplot2, Shiny, Quarto, R Markdown
+
+## Talks & Publications
+
+[Lista publicaciones o charlas]

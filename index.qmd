@@ -1,0 +1,31 @@
+---
+title: "Jeison Mesa"
+subtitle: "Data Scientist"
+image: assets/profile.jpg
+about:
+  template: trestles
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/Jeikosd
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/jeikosd
+    - icon: envelope
+      text: Email
+      href: mailto:jeison.mesa@correounivalle.edu.co
+---
+
+Data Scientist with 10+ years of experience bridging academia and industry.
+Passionate about R, statistical modeling, and turning data into decisions.
+
+## What I do
+
+- **Statistical modeling & machine learning** applied to real problems
+- **Research** at the intersection of data science and domain knowledge
+- **Teaching** and mentoring the next generation of data practitioners
+
+## Recent highlights
+
+- [Latest blog post →](blog/index.qmd)
+- [Recent projects →](projects.qmd)

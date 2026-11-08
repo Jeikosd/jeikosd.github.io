@@ -1,0 +1,39 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jeison Mesa"
+  description: "Data Scientist | 10+ years experience | R enthusiast"
+  favicon: assets/favicon.ico
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: projects.qmd
+        text: Projects
+      - href: blog/index.qmd
+        text: Blog
+      - href: cv.qmd
+        text: CV
+    right:
+      - icon: github
+        href: https://github.com/Jeikosd
+      - icon: linkedin
+        href: https://www.linkedin.com/in/jeikosd
+  page-footer:
+    center: "© 2026 Jeison Mesa · Built with [Quarto](https://quarto.org)"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: assets/styles.css
+    toc: true
+    toc-depth: 2
+    code-fold: true
+    code-tools: true
+    highlight-style: github

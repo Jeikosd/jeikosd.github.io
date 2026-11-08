@@ -1,0 +1,113 @@
+---
+title: "Curriculum Vitae"
+description: "Statistician and data scientist with 10+ years of experience in R and Python, from climate research to industry machine learning."
+---
+
+## Summary
+
+I'm a statistician and data scientist with more than ten years of experience, working mostly in R and Python. I started in climate and agricultural research, where I learned to build models that other people had to trust and act on. Since 2021 I've applied the same habits to industry problems: customer churn and segmentation, pricing, forecasting, recommendation and text embeddings.
+
+I like the part of the job between the notebook and production: cleaning up the data, making the model reproducible, and getting it running somewhere useful (AWS SageMaker, GCP Vertex AI, Kubeflow, Docker).
+
+## Experience
+
+### AI Engineer · Globant, on assignment at Disney {.cv-role}
+*2026 – Present · Remote, Colombia*
+
+Building AI and machine learning solutions as part of a Globant team working with Disney.
+
+### Senior Data Scientist · Globant {.cv-role}
+*May 2021 – Dec 2025 · Remote, Colombia*
+
+**Sportian account** (Aug 2023 – Dec 2025)
+
+- Built statistical and machine learning models for sports-industry products, mainly pricing and match analytics.
+- Worked with time series, econometric methods and embeddings on historical sales and event data.
+
+**Augmented Staffing** (Feb 2022 – Jan 2023)
+
+- Forecasting and clustering of internal staffing tickets, used to plan recruiting.
+- Built a semantic search and recommendation tool that matched candidates to tickets using text embeddings, plus a seniority estimation model in PyTorch with an ordinal loss.
+- Ran the pipelines on Kubeflow.
+
+**DirecTV** (May 2021 – Dec 2021)
+
+- Customer segmentation for the DirecTV GO subscriber base.
+- Churn model that combined behavioural usage data with sentiment from text, plus an analysis of subscription pricing and a market basket analysis to guide retention campaigns.
+- Pipelines on AWS SageMaker.
+
+### Professor (part-time) · Universidad del Valle and Universidad Católica {.cv-role}
+*Aug 2020 – Jun 2021*
+
+Taught time series analysis and probability at Universidad del Valle, and inference and probability at Universidad Católica.
+
+### Research Assistant and Data Scientist · CIAT (International Center for Tropical Agriculture) {.cv-role}
+*2014 – 2020 · Cali, Colombia*
+
+Climate and agriculture group. I automated, in R, the full pipeline from climate data to crop simulation, and modelled climate variables and crop yields across Latin America and beyond. Highlights:
+
+- Impacts of near-term climate change on major crops in Latin America and the Caribbean (for the IDB and USAID), using DSSAT and ORYZA crop models together with machine learning and geostatistics.
+- Identification of "climate service hotspots" worldwide, where agro-climatic information could help close yield gaps ([AgMetGaps](https://ciat-dapa.github.io/AgMetGaps/)).
+- Statistical models behind the [AClimate Colombia](http://www.aclimatecolombia.org) seasonal forecast platform.
+- Regional climate change plan for the Orinoco region (Meta, Casanare, Vichada and Arauca): spatial analysis, climate clusters and yield simulation for the main production systems.
+- Vulnerability analysis and classification of production systems for the Adaptation Fund, with CORPOICA.
+
+### Earlier work, 2010 – 2014 {.cv-role}
+
+- **Consultant, Universidad del Valle** (2012–2013): statistical design and analysis for two engineering theses, one on constructed wetlands (factorial and repeated-measures designs, mixed models) and one on equations of state (non-linear models, bootstrap).
+- **Professor, Universidad Santiago de Cali** (2013): a course on statistics in R for research faculty.
+- **Statistical Assistant, Universidad del Valle** (2010–2013): analysis for the quality and accreditation office of the health faculty, with Excel macros and R automation.
+
+## Education
+
+- **M.Sc. (candidate) in Statistics**, Universidad del Valle, Cali.
+- **B.Sc. in Statistics**, Universidad del Valle, Cali (2008 – 2014). Thesis: *Comparison of estimation methods for the fractional differencing parameter in conditionally heteroscedastic long-memory time series.*
+
+## Skills
+
+| | |
+|---|---|
+| **Languages** | R (advanced), Python, SQL |
+| **Modelling** | Regression and mixed models, clustering, dimensionality reduction (PCA, kernel PCA, t-SNE, UMAP), gradient boosting, deep learning (PyTorch), anomaly detection |
+| **Time series and spatial** | ARIMA, GARCH, state-space models and Kalman filters, Gaussian processes, geostatistics, raster and satellite data |
+| **Text and GenAI** | Embeddings and vector search, topic models, Hugging Face, LangChain, OpenAI |
+| **Data and cloud** | PySpark, sparklyr, Polars and pandas, Parquet, Databricks, AWS (SageMaker, Athena, S3), GCP (Vertex AI), some Azure |
+| **Engineering** | Git and GitHub, Docker, Kubeflow, Linux and WSL, DVC |
+| **Domain** | Climate impact modelling, crop simulation (DSSAT, ORYZA), pricing, churn and customer segmentation |
+| **Communication** | Quarto, R Markdown, LaTeX |
+
+**Languages spoken:** Spanish (native), English (intermediate).
+
+## Selected publications
+
+Full list on [Google Scholar](https://scholar.google.com/citations?user=ZPe2yT4AAAAJ&hl=en).
+
+- Valencia JB, Guryanov VV, **Mesa-Diez J**, Diaz N, Escobar-Carbonari D, Gusarov AV (2024). Predictive assessment of climate change impact on water yield in the Meta River Basin, Colombia: an InVEST model application. *Hydrology*.
+- Valencia JB, Guryanov VV, **Mesa-Diez J**, Tapasco J, Gusarov AV (2023). Assessing the effectiveness of the use of the InVEST annual water yield model for the rivers of Colombia: a case study of the Meta River Basin. *Water*.
+- Ordoñez L, Vallejo E, Amariles D, **Mesa J**, Esquivel A, Llanos-Herrera L, et al. (2022). Applying agroclimatic seasonal forecasts to improve rainfed maize agronomic management in Colombia. *Climate Services*, 28.
+- Ochoa-Muñoz AF, Peña-Torres JA, García-Bermúdez CE, Mosquera-Muñoz KF, **Mesa-Diez J** (2022). On characterization of sensory data in presence of missing values: the case of sensory coffee quality assessment. *Ingeniare*, 30(3), 564–573.
+- Valencia JB, **Mesa J**, León JG, Madriñán S, Cortés AJ (2020). Climate vulnerability assessment of the *Espeletia* complex on páramo sky islands in the northern Andes. *Frontiers in Ecology and Evolution*, 8, 309.
+- Sotelo S, Guevara E, Llanos-Herrera L, et al., **Mesa J**, et al. (2020). Pronósticos AClimateColombia: a system for the provision of information for climate risk reduction in Colombia. *Computers and Electronics in Agriculture*, 174.
+- Mwongera C, Ramirez-Villegas J, Mutua J, Mora B, **Mesa J**, et al. (2020). *Climate vulnerability assessment for selected value chain commodities in Zambia*. Alliance of Bioversity International and CIAT.
+- Rodríguez De Luque JJ, González-Rodríguez CE, Gourdji S, Mason-D'Croz D, Obando-Bonilla D, **Mesa-Diez J**, Prager SD (2016). Socio-economic impacts of climate change in Latin America and the Caribbean: 2020–2045. *Cuadernos de Desarrollo Rural*, 13(78), 11–34.
+- Gourdji SM, **Mesa-Diez J**, Obando-Bonilla D, Moreno-Cadena LP, Navarro-Racines CE, Fisher M, Prager SD, Ramirez-Villegas J. *Climate change vulnerability in the agricultural sector in Latin America and the Caribbean.* [CORE](https://core.ac.uk/display/160041749).
+
+## Talks and conferences
+
+- *Enabling the breeding of climate-smart crops* and *Climate services for agriculture: forecast skill no guarantee of success?* Global Climate-Smart Agriculture Conference, Bali, 2019 (co-author, [abstract book](https://globalcsaconference.org/wp-content/uploads/2019/10/ABSTRACT-BOOK-FINAL.pdf)).
+- *Servicios agro-climáticos para la agricultura: ¿sueño o realidad?* Congreso SOCOLEN, Cali, 2018 (co-author).
+- *Simulated near-term climate change impacts on major crops across Latin America and the Caribbean.* AGU Fall Meeting, San Francisco, 2016 (co-author, [abstract](https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/184950)).
+- *Comparación de métodos de estimación para el parámetro de diferenciación fraccional en series de tiempo de memoria larga condicionalmente heterocedásticas.* Jornadas en Estadística e Informática, ESPOL, Guayaquil, 2014, and Escuela de Verano, Universidad Nacional de Colombia (Medellín) and Universidad del Valle, 2013 (speaker).
+
+## Awards
+
+- **UNFCCC Momentum for Change award**, CIAT, 2017.
+- **Best Research Outcome**, CIAT, 2017.
+- Academic stimulus, Universidad del Valle: second best position (2010), fourth best position (2011).
+- Best graduate, Colegio César Conto, 2007.
+
+## Selected courses
+
+- Quantitative Ecology and Conservation of Biodiversity, and Selection Analysis of Animal Resources Using R. CEBIO, Lima, 2014.
+- Classification Methods: Grouping and Discriminant Analysis. ESPOL, Guayaquil, 2014.
+- Spatial Data Analysis, Non-linear Models, Econometrics. Universidad del Valle, 2012–2013.

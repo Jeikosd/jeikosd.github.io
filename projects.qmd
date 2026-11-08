@@ -1,0 +1,27 @@
+---
+title: "Projects"
+---
+
+## Featured Projects
+
+### [Nombre Proyecto 1]
+
+[Descripción breve — 2-3 oraciones sobre el problema, enfoque y resultado]
+
+**Stack:** R, tidymodels, ggplot2
+[GitHub](https://github.com/Jeikosd) | [Demo](#)
+
+---
+
+### [Nombre Proyecto 2]
+
+[Descripción breve]
+
+**Stack:** Python, scikit-learn, SQL
+[GitHub](https://github.com/Jeikosd)
+
+---
+
+## Open Source Contributions
+
+[Lista de contribuciones a paquetes o repos públicos]
