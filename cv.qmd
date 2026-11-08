@@ -60,7 +60,6 @@ Climate and agriculture group. I automated, in R, the full pipeline from climate
 
 ## Education
 
-- **M.Sc. (candidate) in Statistics**, Universidad del Valle, Cali.
 - **B.Sc. in Statistics**, Universidad del Valle, Cali (2008 – 2014). Thesis: *Comparison of estimation methods for the fractional differencing parameter in conditionally heteroscedastic long-memory time series.*
 
 ## Thesis supervision
