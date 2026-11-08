@@ -5,9 +5,9 @@ description: "Statistician and AI engineer with a time series and state-space ba
 
 ## Hello
 
-I'm Jeison, a statistician from Cali, Colombia. I studied statistics at Universidad del Valle, and my thesis was on estimating the fractional differencing parameter in long-memory time series with conditional heteroscedasticity. That started a long interest in time series that I still have: ARIMA and GARCH models, state-space models, Kalman filters and Gaussian processes.
+I'm Jeison, a statistician from Cali, Colombia. I studied statistics at Universidad del Valle, and my thesis compared methods for estimating the fractional differencing parameter in long-memory time series with conditional heteroscedasticity. That started a long interest in time series that I still have: ARIMA and GARCH models, state-space models, Kalman filters and Gaussian processes.
 
-My first job in the field was at CIAT, the International Center for Tropical Agriculture, where I spent several years on climate and agriculture. I automated the path from climate data to crop simulation in R and modelled how climate change could affect crops across Latin America. Some of that work was recognised with a UNFCCC Momentum for Change award in 2017, and I co-authored papers in journals such as *Climate Services*, *Frontiers in Ecology and Evolution* and *Computers and Electronics in Agriculture*.
+After my degree I joined CIAT, the International Center for Tropical Agriculture, where I spent several years on climate and agriculture. I automated the path from climate data to crop simulation in R and modelled how climate change could affect crops across Latin America. Some of that work was recognised with a UNFCCC Momentum for Change award in 2017, and I co-authored papers in journals such as *Climate Services*, *Frontiers in Ecology and Evolution* and *Computers and Electronics in Agriculture*.
 
 Since 2021 I've worked at Globant on machine learning and AI projects: customer segmentation and churn, forecasting, recommendation, text embeddings and semantic search. I currently work as an AI engineer. I also taught probability, inference and time series at university level.
 

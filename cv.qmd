@@ -50,7 +50,7 @@ Climate and agriculture group. I automated, in R, the full pipeline from climate
 - Identification of "climate service hotspots" worldwide, where agro-climatic information could help close yield gaps ([AgMetGaps](https://ciat-dapa.github.io/AgMetGaps/)).
 - Statistical models behind the AClimate Colombia seasonal forecast platform ([paper](https://doi.org/10.1016/j.compag.2020.105486)).
 - Regional climate change plan for the Orinoco region (Meta, Casanare, Vichada and Arauca): spatial analysis, climate clusters and yield simulation for the main production systems.
-- Vulnerability analysis and classification of production systems for the Adaptation Fund, with CORPOICA.
+- Vulnerability analysis and classification of production systems for Colombia's Fondo Adaptación, with CORPOICA.
 
 ### Earlier work, 2010 – 2014 {.cv-role}
 
@@ -60,7 +60,6 @@ Climate and agriculture group. I automated, in R, the full pipeline from climate
 
 ## Education
 
-- **M.Sc. (candidate) in Statistics**, Universidad del Valle, Cali.
 - **B.Sc. in Statistics**, Universidad del Valle, Cali (2008 – 2014). Thesis: *Comparison of estimation methods for the fractional differencing parameter in conditionally heteroscedastic long-memory time series.*
 
 ## Skills
@@ -86,7 +85,7 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=ZPe2yT4A
 - Valencia JB, Guryanov VV, **Mesa-Diez J**, Tapasco J, Gusarov AV (2023). Assessing the effectiveness of the use of the InVEST annual water yield model for the rivers of Colombia: a case study of the Meta River Basin. *Water*.
 - Ordoñez L, Vallejo E, Amariles D, **Mesa J**, Esquivel A, Llanos-Herrera L, et al. (2022). Applying agroclimatic seasonal forecasts to improve rainfed maize agronomic management in Colombia. *Climate Services*, 28.
 - Ochoa-Muñoz AF, Peña-Torres JA, García-Bermúdez CE, Mosquera-Muñoz KF, **Mesa-Diez J** (2022). On characterization of sensory data in presence of missing values: the case of sensory coffee quality assessment. *Ingeniare*, 30(3), 564–573.
-- Valencia JB, **Mesa J**, León JG, Madriñán S, Cortés AJ (2020). Climate vulnerability assessment of the *Espeletia* complex on páramo sky islands in the northern Andes. *Frontiers in Ecology and Evolution*, 8, 309.
+- Valencia JB, **Mesa J**, León JG, Madriñán S, Cortés AJ (2020). Climate vulnerability assessment of the *Espeletia* complex on páramo sky islands in the northern Andes. *Frontiers in Ecology and Evolution*, 8, 565708.
 - Sotelo S, Guevara E, Llanos-Herrera L, et al., **Mesa J**, et al. (2020). Pronósticos AClimateColombia: a system for the provision of information for climate risk reduction in Colombia. *Computers and Electronics in Agriculture*, 174.
 - Mwongera C, Ramirez-Villegas J, Mutua J, Mora B, **Mesa J**, et al. (2020). *Climate vulnerability assessment for selected value chain commodities in Zambia*. Alliance of Bioversity International and CIAT.
 - Rodríguez De Luque JJ, González-Rodríguez CE, Gourdji S, Mason-D'Croz D, Obando-Bonilla D, **Mesa-Diez J**, Prager SD (2016). Socio-economic impacts of climate change in Latin America and the Caribbean: 2020–2045. *Cuadernos de Desarrollo Rural*, 13(78), 11–34.

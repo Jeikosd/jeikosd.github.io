@@ -7,7 +7,7 @@ A short list of public work. Tutorial repositories in R and Python will be added
 
 ## AClimate Colombia
 
-A platform that delivers seasonal climate forecasts and agro-climatic information to support climate risk decisions in Colombia. I developed the statistical models behind it as part of the team at CIAT.
+A platform that delivers seasonal climate forecasts and agro-climatic information to support climate risk decisions in Colombia. I worked on the statistical models behind it as part of the team at CIAT.
 
 [Paper](https://doi.org/10.1016/j.compag.2020.105486)
 
@@ -19,6 +19,6 @@ Part of a project on where climate services could help close yield gaps in agric
 
 ## Climate change and crops in Latin America and the Caribbean
 
-Simulations of near-term climate change impacts on major crops, built on crop models and statistical analysis for the Inter-American Development Bank and USAID work at CIAT.
+Simulations of near-term climate change impacts on major crops, built on crop models and statistical analysis, done at CIAT for the Inter-American Development Bank and USAID.
 
 [AGU abstract](https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/184950)
