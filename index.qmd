@@ -1,6 +1,6 @@
 ---
 title: "Jeison Mesa"
-subtitle: "Statistician and AI engineer"
+subtitle: "Statistician, data scientist and AI engineer"
 description: "Time series, state-space models and Kalman filters, plus machine learning and AI engineering, in R and Python."
 about:
   template: trestles

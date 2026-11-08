@@ -1,20 +1,26 @@
 ---
 title: "Curriculum Vitae"
-description: "Statistician and data scientist with 10+ years of experience in R and Python, from climate research to industry machine learning."
+description: "Statistician, data scientist and AI engineer with 10+ years of experience in R and Python, from climate research to industry machine learning and LLM agents."
 ---
 
 ## Summary
 
-I'm a statistician and data scientist with more than ten years of experience, working mostly in R and Python. I started in climate and agricultural research, where I learned to build models that other people had to trust and act on. Since 2021 I've applied the same habits to industry problems: customer churn and segmentation, pricing, forecasting, recommendation and text embeddings.
+I'm a statistician, data scientist and AI engineer with more than ten years of experience, working mostly in R and Python. I started in climate and agricultural research, where I learned to build models that other people had to trust and act on. Since 2021 I've applied the same habits to industry problems: customer churn and segmentation, pricing, forecasting, recommendation and text embeddings, and more recently LLM-based agents.
 
 I like the part of the job between the notebook and production: cleaning up the data, making the model reproducible, and getting it running somewhere useful (AWS SageMaker, GCP Vertex AI, Kubeflow, Docker).
 
 ## Experience
 
 ### AI Engineer · Globant {.cv-role}
-*2026 – Present · Remote, Colombia*
+*Dec 2025 – Present · Remote, Colombia*
 
-Building AI and machine learning solutions for a client in the media industry.
+Building LLM-based systems for a client in the media industry:
+
+- A multi-agent system that reads a codebase and generates its documentation, with structured context injection, schema validation between agents and a clear split between deterministic and LLM steps to make results reliable and explainable.
+- A conversational intake agent that standardizes internal product requests, pushes back on vague input and flags overlap across teams.
+- An automated reporting pipeline that gathers data from project-management tools into one reporting model and produces scheduled executive and team reports, with a dry-run step before anything is distributed.
+
+Tools: Python, LangGraph, Azure OpenAI, REST APIs, Docker, Git, CI/CD.
 
 ### Senior Data Scientist · Globant {.cv-role}
 *May 2021 – Dec 2025 · Remote, Colombia*
@@ -69,7 +75,7 @@ Climate and agriculture group. I automated, in R, the full pipeline from climate
 | **Languages** | R (advanced), Python, SQL |
 | **Modelling** | Regression and mixed models, clustering, dimensionality reduction (PCA, kernel PCA, t-SNE, UMAP), gradient boosting, deep learning (PyTorch), anomaly detection |
 | **Time series and spatial** | ARIMA, GARCH, state-space models and Kalman filters, Gaussian processes, geostatistics, raster and satellite data |
-| **Text and GenAI** | Embeddings and vector search, topic models, Hugging Face, LangChain, OpenAI |
+| **Text and GenAI** | LLM agents and multi-agent systems (LangGraph, LangChain), prompt engineering, embeddings and vector search, topic models, Hugging Face, OpenAI and Azure OpenAI |
 | **Data and cloud** | PySpark, sparklyr, Polars and pandas, Parquet, Databricks, AWS (SageMaker, Athena, S3), GCP (Vertex AI), some Azure |
 | **Engineering** | Git and GitHub, Docker, Kubeflow, Linux and WSL, DVC |
 | **Domain** | Climate impact modelling, crop simulation (DSSAT, ORYZA), pricing, churn and customer segmentation |
@@ -93,14 +99,14 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=ZPe2yT4A
 
 ## Talks and conferences
 
+- *Simulated near-term climate change impacts on major crops across Latin America and the Caribbean.* AGU Fall Meeting, San Francisco, 2016 (co-author, [abstract](https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/184950)).
 - *Enabling the breeding of climate-smart crops* and *Climate services for agriculture: forecast skill no guarantee of success?* Global Climate-Smart Agriculture Conference, Bali, 2019 (co-author, [abstract book](https://globalcsaconference.org/wp-content/uploads/2019/10/ABSTRACT-BOOK-FINAL.pdf)).
 - *Servicios agro-climáticos para la agricultura: ¿sueño o realidad?* Congreso SOCOLEN, Cali, 2018 (co-author).
-- *Simulated near-term climate change impacts on major crops across Latin America and the Caribbean.* AGU Fall Meeting, San Francisco, 2016 (co-author, [abstract](https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/184950)).
 - *Comparación de métodos de estimación para el parámetro de diferenciación fraccional en series de tiempo de memoria larga condicionalmente heterocedásticas.* Jornadas en Estadística e Informática, ESPOL, Guayaquil, 2014, and Escuela de Verano, Universidad Nacional de Colombia (Medellín) and Universidad del Valle, 2013 (speaker).
 
 ## Awards
 
-- **UNFCCC Momentum for Change award**, CIAT, 2017.
+- **UNFCCC Momentum for Change award**, 2017, as part of the CIAT climate services team.
 - **Best Research Outcome**, CIAT, 2017.
 - Academic stimulus, Universidad del Valle: second best position (2010), fourth best position (2011).
 - Best graduate, Colegio César Conto, 2007.

@@ -7,7 +7,7 @@ project:
 
 website:
   title: "Jeison Mesa"
-  description: "Statistician and AI engineer. Time series, state-space models and Kalman filters, in R and Python."
+  description: "Statistician, data scientist and AI engineer. Time series, state-space models and Kalman filters, in R and Python."
   site-url: https://jeikosd.github.io
   favicon: assets/favicon.svg
   open-graph: true
