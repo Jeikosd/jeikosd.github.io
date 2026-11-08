@@ -63,6 +63,10 @@ Climate and agriculture group. I automated, in R, the full pipeline from climate
 - **M.Sc. (candidate) in Statistics**, Universidad del Valle, Cali.
 - **B.Sc. in Statistics**, Universidad del Valle, Cali (2008 – 2014). Thesis: *Comparison of estimation methods for the fractional differencing parameter in conditionally heteroscedastic long-memory time series.*
 
+## Thesis supervision
+
+- **Co-director**, undergraduate thesis in Statistics, Universidad del Valle (2023): *Spectral analysis of Colombian genres: La Cumbia* (in Spanish). Fundamental-frequency time series of 30 cumbia songs extracted in R, summarized with principal component analysis. [Open access](https://hdl.handle.net/10893/30344).
+
 ## Skills
 
 | | |
