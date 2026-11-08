@@ -1,11 +1,17 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "blog/**/*.qmd"
 
 website:
   title: "Jeison Mesa"
-  description: "Data Scientist | 10+ years experience | R enthusiast"
-  favicon: assets/favicon.ico
+  description: "Statistician and AI engineer. Time series, state-space models and Kalman filters, in R and Python."
+  site-url: https://jeikosd.github.io
+  favicon: assets/favicon.svg
+  open-graph: true
+  twitter-card: true
   navbar:
     left:
       - href: index.qmd

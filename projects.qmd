@@ -1,27 +1,24 @@
 ---
 title: "Projects"
+description: "Selected work in climate, agriculture and forecasting."
 ---
 
-## Featured Projects
+A short list of public work. Tutorial repositories in R and Python will be added here as I publish them.
 
-### [Nombre Proyecto 1]
+## AClimate Colombia
 
-[Descripción breve — 2-3 oraciones sobre el problema, enfoque y resultado]
+A platform that delivers seasonal climate forecasts and agro-climatic information to support climate risk decisions in Colombia. I developed the statistical models behind it as part of the team at CIAT.
 
-**Stack:** R, tidymodels, ggplot2
-[GitHub](https://github.com/Jeikosd) | [Demo](#)
+[Paper](https://doi.org/10.1016/j.compag.2020.105486)
 
----
+## Agro-climatic hotspots (AgMetGaps)
 
-### [Nombre Proyecto 2]
+Part of a project on where climate services could help close yield gaps in agriculture. I worked on the data processing and on the statistical and machine learning models.
 
-[Descripción breve]
+[Project site](https://ciat-dapa.github.io/AgMetGaps/)
 
-**Stack:** Python, scikit-learn, SQL
-[GitHub](https://github.com/Jeikosd)
+## Climate change and crops in Latin America and the Caribbean
 
----
+Simulations of near-term climate change impacts on major crops, built on crop models and statistical analysis for the Inter-American Development Bank and USAID work at CIAT.
 
-## Open Source Contributions
-
-[Lista de contribuciones a paquetes o repos públicos]
+[AGU abstract](https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/184950)

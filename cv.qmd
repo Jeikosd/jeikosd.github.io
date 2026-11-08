@@ -11,10 +11,10 @@ I like the part of the job between the notebook and production: cleaning up the 
 
 ## Experience
 
-### AI Engineer · Globant, on assignment at Disney {.cv-role}
+### AI Engineer · Globant {.cv-role}
 *2026 – Present · Remote, Colombia*
 
-Building AI and machine learning solutions as part of a Globant team working with Disney.
+Building AI and machine learning solutions for a client in the media industry.
 
 ### Senior Data Scientist · Globant {.cv-role}
 *May 2021 – Dec 2025 · Remote, Colombia*
@@ -48,7 +48,7 @@ Climate and agriculture group. I automated, in R, the full pipeline from climate
 
 - Impacts of near-term climate change on major crops in Latin America and the Caribbean (for the IDB and USAID), using DSSAT and ORYZA crop models together with machine learning and geostatistics.
 - Identification of "climate service hotspots" worldwide, where agro-climatic information could help close yield gaps ([AgMetGaps](https://ciat-dapa.github.io/AgMetGaps/)).
-- Statistical models behind the [AClimate Colombia](http://www.aclimatecolombia.org) seasonal forecast platform.
+- Statistical models behind the AClimate Colombia seasonal forecast platform ([paper](https://doi.org/10.1016/j.compag.2020.105486)).
 - Regional climate change plan for the Orinoco region (Meta, Casanare, Vichada and Arauca): spatial analysis, climate clusters and yield simulation for the main production systems.
 - Vulnerability analysis and classification of production systems for the Adaptation Fund, with CORPOICA.
 

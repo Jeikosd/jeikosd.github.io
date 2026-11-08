@@ -1,7 +1,7 @@
 ---
 title: "Jeison Mesa"
-subtitle: "Data Scientist"
-image: assets/profile.jpg
+subtitle: "Statistician and AI engineer"
+description: "Time series, state-space models and Kalman filters, plus machine learning and AI engineering, in R and Python."
 about:
   template: trestles
   links:
@@ -11,21 +11,24 @@ about:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/jeikosd
+    - icon: mortarboard
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=ZPe2yT4AAAAJ
     - icon: envelope
       text: Email
       href: mailto:jeison.mesa@correounivalle.edu.co
 ---
 
-Data Scientist with 10+ years of experience bridging academia and industry.
-Passionate about R, statistical modeling, and turning data into decisions.
+I'm a statistician. My strongest ground is time series: state-space models, Kalman filters and the other tools for reasoning about data that moves through time. I started in climate and agricultural research, and since 2021 I've been building machine learning and AI systems in industry. I write most of my code in R and Python.
 
-## What I do
+## What I write about
 
-- **Statistical modeling & machine learning** applied to real problems
-- **Research** at the intersection of data science and domain knowledge
-- **Teaching** and mentoring the next generation of data practitioners
+- **Time series and state-space models**, including Kalman filtering
+- **R and Python tutorials** for data science and statistics
+- **Deep learning, AI engineering and data engineering**, from the practical side
 
-## Recent highlights
+## Start here
 
-- [Latest blog post →](blog/index.qmd)
-- [Recent projects →](projects.qmd)
+- [Blog](blog/index.qmd)
+- [Projects](projects.qmd)
+- [CV](cv.qmd)
