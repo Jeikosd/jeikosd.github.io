@@ -1,9 +1,13 @@
 ---
-title: "Welcome to my blog"
+title: "Hello"
 author: "Jeison Mesa"
-date: "2026-07-10"
+date: "2026-11-08"
 categories: [news]
-image: "image.jpg"
+description: "What this blog is for and what I plan to write about."
 ---
 
-First post — more coming soon.
+This blog is where I'll write down what I learn and what I wish I had found earlier.
+
+My background is in statistics, and my favourite part of it is time series. I'll write about state-space models and Kalman filters, with code in R and Python so you can run it yourself. I also plan tutorials on statistics, deep learning, AI engineering and data engineering, aimed at people who want to see how the pieces fit together in practice.
+
+If a post has code, it will link to a repository you can clone and run.
