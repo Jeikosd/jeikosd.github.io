@@ -1,5 +1,5 @@
 ---
-title: "Curriculum Vitae"
+title: "Jeison Mesa, Curriculum Vitae"
 description: "Statistician, data scientist and AI engineer with 10+ years of experience in R and Python, from climate research to industry machine learning and LLM agents."
 ---
 
@@ -11,10 +11,10 @@ I like the part of the job between the notebook and production: cleaning up the 
 
 ## Experience
 
-### AI Engineer · Globant {.cv-role}
+### AI Engineer · Globant, on assignment at Disney {.cv-role}
 *Dec 2025 – Present · Remote, Colombia*
 
-Building LLM-based systems for a client in the media industry:
+Building LLM-based systems for Disney:
 
 - A multi-agent system that reads a codebase and generates its documentation, with structured context injection, schema validation between agents and a clear split between deterministic and LLM steps to make results reliable and explainable.
 - A conversational intake agent that standardizes internal product requests, pushes back on vague input and flags overlap across teams.
@@ -89,10 +89,10 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=ZPe2yT4A
 
 - Valencia JB, Guryanov VV, **Mesa-Diez J**, Diaz N, Escobar-Carbonari D, Gusarov AV (2024). Predictive assessment of climate change impact on water yield in the Meta River Basin, Colombia: an InVEST model application. *Hydrology*.
 - Valencia JB, Guryanov VV, **Mesa-Diez J**, Tapasco J, Gusarov AV (2023). Assessing the effectiveness of the use of the InVEST annual water yield model for the rivers of Colombia: a case study of the Meta River Basin. *Water*.
-- Ordoñez L, Vallejo E, Amariles D, **Mesa J**, Esquivel A, Llanos-Herrera L, et al. (2022). Applying agroclimatic seasonal forecasts to improve rainfed maize agronomic management in Colombia. *Climate Services*, 28.
+- Ordoñez L, Vallejo E, Amariles D, **Mesa J**, Esquivel A, Llanos-Herrera L, et al. (2022). Applying agroclimatic seasonal forecasts to improve rainfed maize agronomic management in Colombia. *Climate Services*, 28, 100333.
 - Ochoa-Muñoz AF, Peña-Torres JA, García-Bermúdez CE, Mosquera-Muñoz KF, **Mesa-Diez J** (2022). On characterization of sensory data in presence of missing values: the case of sensory coffee quality assessment. *Ingeniare*, 30(3), 564–573.
 - Valencia JB, **Mesa J**, León JG, Madriñán S, Cortés AJ (2020). Climate vulnerability assessment of the *Espeletia* complex on páramo sky islands in the northern Andes. *Frontiers in Ecology and Evolution*, 8, 565708.
-- Sotelo S, Guevara E, Llanos-Herrera L, et al., **Mesa J**, et al. (2020). Pronósticos AClimateColombia: a system for the provision of information for climate risk reduction in Colombia. *Computers and Electronics in Agriculture*, 174.
+- Sotelo S, Guevara E, Llanos-Herrera L, et al., **Mesa J**, et al. (2020). Pronósticos AClimateColombia: a system for the provision of information for climate risk reduction in Colombia. *Computers and Electronics in Agriculture*, 174, 105486.
 - Mwongera C, Ramirez-Villegas J, Mutua J, Mora B, **Mesa J**, et al. (2020). *Climate vulnerability assessment for selected value chain commodities in Zambia*. Alliance of Bioversity International and CIAT.
 - Rodríguez De Luque JJ, González-Rodríguez CE, Gourdji S, Mason-D'Croz D, Obando-Bonilla D, **Mesa-Diez J**, Prager SD (2016). Socio-economic impacts of climate change in Latin America and the Caribbean: 2020–2045. *Cuadernos de Desarrollo Rural*, 13(78), 11–34.
 - Gourdji SM, **Mesa-Diez J**, Obando-Bonilla D, Moreno-Cadena LP, Navarro-Racines CE, Fisher M, Prager SD, Ramirez-Villegas J. *Climate change vulnerability in the agricultural sector in Latin America and the Caribbean.* [CORE](https://core.ac.uk/display/160041749).
