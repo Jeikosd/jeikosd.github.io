@@ -7,39 +7,41 @@ project:
 
 website:
   title: "Jeison Mesa"
-  description: "Statistician, data scientist and AI engineer. Time series, state-space models and Kalman filters, in R and Python."
+  description: "Statistician and data scientist. Time series, state-space models and machine learning in R and Python."
   site-url: https://jeikosd.github.io
   favicon: assets/favicon.svg
   open-graph: true
   twitter-card: true
   navbar:
-    left:
-      - href: index.qmd
-        text: Home
+    right:
       - href: about.qmd
         text: About
       - href: projects.qmd
         text: Projects
+      - href: publications.qmd
+        text: Publications
       - href: blog/index.qmd
         text: Blog
       - href: cv.qmd
         text: CV
-    right:
       - icon: github
         href: https://github.com/Jeikosd
+        aria-label: GitHub
       - icon: linkedin
         href: https://www.linkedin.com/in/jeikosd
+        aria-label: LinkedIn
   page-footer:
-    center: "© 2026 Jeison Mesa · Built with [Quarto](https://quarto.org)"
+    border: false
+    left: "© 2026 Jeison Mesa"
+    right: "Built with [Quarto](https://quarto.org)"
 
 format:
   html:
     theme:
-      light: flatly
-      dark: darkly
-    css: assets/styles.css
-    toc: true
-    toc-depth: 2
-    code-fold: true
-    code-tools: true
+      light: [assets/light.scss, assets/site.scss]
+      dark: [assets/dark.scss, assets/site.scss]
+    respect-user-color-scheme: true
+    toc: false
+    grid:
+      body-width: 760px
     highlight-style: github

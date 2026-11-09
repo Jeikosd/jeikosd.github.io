@@ -1,10 +1,13 @@
 ---
 title: "Blog"
+description: "Notes and tutorials on time series, statistics and AI engineering, with code in R and Python."
 listing:
   contents: posts
   sort: "date desc"
   type: default
-  categories: true
+  image-align: left
+  fields: [image, title, description, date]
+  date-format: long
+  categories: false
   feed: true
-page-layout: full
 ---

@@ -1,0 +1,154 @@
+/*-- scss:defaults --*/
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..700;1,300..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
+
+$font-family-sans-serif: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+$headings-font-family: "Newsreader", Georgia, serif;
+$headings-font-weight: 400;
+$font-size-root: 17px;
+$line-height-base: 1.65;
+$link-decoration: none;
+$link-hover-decoration: underline;
+
+/*-- scss:rules --*/
+
+// Base
+h1, h2, h3, h4 { color: var(--ink); letter-spacing: -0.005em; }
+h2 {
+  font-size: 1.65rem;
+  margin-top: 2.6rem;
+  border-bottom: 0;
+  padding-bottom: 0;
+}
+h3 { font-size: 1.25rem; }
+a { text-underline-offset: 0.18em; }
+.quarto-title h1.title {
+  font-size: clamp(2.3rem, 5vw, 3.2rem);
+  font-weight: 300;
+  line-height: 1.1;
+}
+.quarto-title .subtitle, p.subtitle {
+  font-family: $headings-font-family;
+  font-style: italic;
+  font-size: 1.25rem;
+  color: var(--soft);
+}
+.quarto-title-block .description, .quarto-title .description { color: var(--soft); }
+
+// Navbar
+.navbar { box-shadow: none; border-bottom: 1px solid var(--hairline); }
+.navbar-brand, .navbar-title {
+  font-family: $headings-font-family;
+  font-size: 1.3rem;
+  font-weight: 500;
+}
+.navbar .nav-link { font-size: 0.92rem; font-weight: 500; }
+
+// Footer
+.nav-footer { border-top: 1px solid var(--hairline); font-size: 0.82rem; }
+
+// Home
+#quarto-content > .hero {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: clamp(2.2rem, 6vh, 3.6rem) 1.5rem 2rem;
+}
+.hero-name {
+  font-family: $headings-font-family;
+  font-size: clamp(3.2rem, 9vw, 6.4rem);
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.025em;
+  margin: 0;
+}
+.hero-role {
+  font-family: $headings-font-family;
+  font-style: italic;
+  font-size: clamp(1.2rem, 2.6vw, 1.65rem);
+  color: var(--accent);
+  margin: 0.5rem 0 0;
+}
+.fan-chart { display: block; width: 100%; height: auto; margin-top: 1.2rem; }
+.fan-history { fill: none; stroke: var(--soft); stroke-width: 1.6; stroke-linejoin: round; }
+.fan-mean { fill: none; stroke: var(--warm); stroke-width: 2.4; stroke-linejoin: round; }
+.fan-90 { fill: var(--accent); fill-opacity: 0.14; }
+.fan-50 { fill: var(--accent); fill-opacity: 0.28; }
+.fan-zero { stroke: var(--hairline); stroke-width: 1; }
+.fan-now { fill: var(--warm); }
+.fan-tick { fill: var(--soft); font-size: 13px; text-anchor: middle; }
+.hero-caption {
+  font-size: 0.8rem;
+  color: var(--soft);
+  margin: 0.3rem 0 0;
+  line-height: 1.45;
+}
+.hero-body {
+  display: grid;
+  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
+  gap: 2.5rem;
+  margin-top: 1.8rem;
+}
+.hero-bio p { font-size: 1.12rem; margin-bottom: 0.9rem; }
+.hero-links p { margin: 0 0 0.4rem; }
+.hero-links { font-weight: 500; }
+.hero-links .hero-icons { margin-top: 0.8rem; font-size: 1.25rem; }
+.hero-icons a { margin-right: 0.8rem; }
+@media (max-width: 760px) {
+  .hero-body { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .fan-tick { font-size: 22px; }
+}
+
+// Projects
+.project {
+  border-top: 1px solid var(--hairline);
+  padding: 1.4rem 0 0.6rem;
+}
+.project h3 { margin-top: 0; }
+.project-meta {
+  font-size: 0.82rem;
+  color: var(--soft);
+  margin-bottom: 0.5rem;
+}
+
+// Publications
+.metrics { margin: 1.2rem 0 2.6rem; }
+.metrics p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin: 0;
+}
+.metric { line-height: 1.2; }
+.metric-value {
+  display: block;
+  font-family: $headings-font-family;
+  font-size: 2.4rem;
+  font-weight: 300;
+  color: var(--accent);
+}
+.metric-label { font-size: 0.82rem; color: var(--soft); }
+.pub-list li { margin-bottom: 0.8rem; }
+
+// CV
+h3.cv-role { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 1rem; margin-top: 1.8rem; }
+h3.cv-role .anchorjs-link { position: absolute; }
+.cv-dates {
+  margin-left: auto;
+  font-family: $font-family-sans-serif;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--soft);
+  white-space: nowrap;
+}
+.cv-download { margin: 0.2rem 0 1.5rem; font-weight: 500; }
+
+// Blog listing
+div.quarto-post {
+  padding-bottom: 2rem;
+  margin-bottom: 2rem;
+}
+div.quarto-post .thumbnail img { border-radius: 4px; }
+div.quarto-post .listing-title { font-family: $headings-font-family; font-size: 1.45rem; font-weight: 400; }
+div.quarto-post .listing-title a { color: var(--ink); }
+div.quarto-post .metadata .listing-date { color: var(--soft); font-size: 0.82rem; }
+.quarto-title-meta-heading { color: var(--soft); }
+pre.sourceCode { border-radius: 6px; }
