@@ -4,57 +4,26 @@ description: "Statistician and data scientist. Time series, state-space models a
 page-layout: custom
 include-in-header:
   text: |
-    <link rel="preload" href="site_libs/bootstrap/assets/fonts/Newsreader-400-normal.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="site_libs/bootstrap/assets/fonts/Newsreader-300-normal.ttf" as="font" type="font/ttf" crossorigin>
 ---
 
 ```{=html}
-<section class="hc" id="hc" aria-labelledby="hc-name">
-  <div class="hc-art" role="img" aria-label="Two bundles of autoregressive random paths start far apart at the top corners and braid together as they fall into a single band. A histogram with its exact density, standing on the name, shows two humps merging into one normal distribution.">
-    <canvas data-gl aria-hidden="true"></canvas>
-    <canvas data-ov aria-hidden="true"></canvas>
+<section class="home" aria-labelledby="home-name">
+  <div class="home-avatar" role="img" aria-label="A Galton board: beads fall through rows of pegs, bouncing left or right at each one, and pile up in bins into a bell shape that matches the normal curve drawn over it.">
+    <canvas class="galton" aria-hidden="true"></canvas>
+    <noscript><svg class="galton-still" viewBox="0 0 100 100" aria-hidden="true"><path class="g-peg" d="M50 15h0M47.5 18.4h0M52.5 18.4h0M45 21.8h0M50 21.8h0M55 21.8h0M42.5 25.2h0M47.5 25.2h0M52.5 25.2h0M57.5 25.2h0M40 28.6h0M45 28.6h0M50 28.6h0M55 28.6h0M60 28.6h0M37.5 32h0M42.5 32h0M47.5 32h0M52.5 32h0M57.5 32h0M62.5 32h0M35 35.4h0M40 35.4h0M45 35.4h0M50 35.4h0M55 35.4h0M60 35.4h0M65 35.4h0M32.5 38.8h0M37.5 38.8h0M42.5 38.8h0M47.5 38.8h0M52.5 38.8h0M57.5 38.8h0M62.5 38.8h0M67.5 38.8h0M30 42.2h0M35 42.2h0M40 42.2h0M45 42.2h0M50 42.2h0M55 42.2h0M60 42.2h0M65 42.2h0M70 42.2h0M27.5 45.6h0M32.5 45.6h0M37.5 45.6h0M42.5 45.6h0M47.5 45.6h0M52.5 45.6h0M57.5 45.6h0M62.5 45.6h0M67.5 45.6h0M72.5 45.6h0M25 49h0M30 49h0M35 49h0M40 49h0M45 49h0M50 49h0M55 49h0M60 49h0M65 49h0M70 49h0M75 49h0M22.5 52.4h0M27.5 52.4h0M32.5 52.4h0M37.5 52.4h0M42.5 52.4h0M47.5 52.4h0M52.5 52.4h0M57.5 52.4h0M62.5 52.4h0M67.5 52.4h0M72.5 52.4h0M77.5 52.4h0"/><path class="g-wall" d="M17.5 57.8V86M22.5 57.8V86M27.5 57.8V86M32.5 57.8V86M37.5 57.8V86M42.5 57.8V86M47.5 57.8V86M52.5 57.8V86M57.5 57.8V86M62.5 57.8V86M67.5 57.8V86M72.5 57.8V86M77.5 57.8V86M82.5 57.8V86M17.5 86H82.5"/><g class="g-pile"><rect x="22.9" y="84.88" width="4.2" height="1.12" rx=".6"/><rect x="27.9" y="83.76" width="4.2" height="2.24" rx=".6"/><rect x="32.9" y="79.28" width="4.2" height="6.72" rx=".6"/><rect x="37.9" y="71.44" width="4.2" height="14.56" rx=".6"/><rect x="42.9" y="62.48" width="4.2" height="23.52" rx=".6"/><rect x="47.9" y="59.12" width="4.2" height="26.88" rx=".6"/><rect x="52.9" y="62.48" width="4.2" height="23.52" rx=".6"/><rect x="57.9" y="71.44" width="4.2" height="14.56" rx=".6"/><rect x="62.9" y="79.28" width="4.2" height="6.72" rx=".6"/><rect x="67.9" y="83.76" width="4.2" height="2.24" rx=".6"/><rect x="72.9" y="84.88" width="4.2" height="1.12" rx=".6"/></g><path class="g-curve" d="M17.5 85.98L18.58 85.96L19.67 85.94L20.75 85.91L21.83 85.86L22.92 85.8L24 85.7L25.08 85.57L26.17 85.39L27.25 85.14L28.33 84.82L29.42 84.39L30.5 83.85L31.58 83.18L32.67 82.35L33.75 81.34L34.83 80.16L35.92 78.78L37 77.22L38.08 75.49L39.17 73.61L40.25 71.63L41.33 69.58L42.42 67.54L43.5 65.56L44.58 63.73L45.67 62.1L46.75 60.76L47.83 59.75L48.92 59.12L50 58.91L51.08 59.12L52.17 59.75L53.25 60.76L54.33 62.1L55.42 63.73L56.5 65.56L57.58 67.54L58.67 69.58L59.75 71.63L60.83 73.61L61.92 75.49L63 77.22L64.08 78.78L65.17 80.16L66.25 81.34L67.33 82.35L68.42 83.18L69.5 83.85L70.58 84.39L71.67 84.82L72.75 85.14L73.83 85.39L74.92 85.57L76 85.7L77.08 85.8L78.17 85.86L79.25 85.91L80.33 85.94L81.42 85.96L82.5 85.98"/></svg></noscript>
   </div>
-  <h1 class="hc-name" id="hc-name">Jeison Mesa</h1>
-  <div class="hc-sub">
-    <div>
-      <p class="hc-role">Statistician and data scientist</p>
-      <p class="hc-tag">Time series, state-space models and machine learning in R and Python.</p>
-    </div>
-    <nav class="hc-cta" aria-label="Site sections">
-      <a class="hc-btn pri" href="cv.qmd">CV</a>
-      <a class="hc-btn" href="projects.qmd">Projects</a>
-      <a class="hc-btn" href="about.qmd">About</a>
-    </nav>
+  <div class="home-text">
+    <h1 class="home-name" id="home-name">Jeison Mesa</h1>
+    <p class="home-role">Statistician and data scientist</p>
+    <p class="home-icons">
+      <a href="https://github.com/Jeikosd" aria-label="GitHub"><i class="bi bi-github" aria-hidden="true"></i></a>
+      <a href="https://www.linkedin.com/in/jeison-mesa-27149ab5" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+      <a href="https://scholar.google.com/citations?user=ZPe2yT4AAAAJ" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill" aria-hidden="true"></i></a>
+    </p>
+    <p class="home-bio">I'm a statistician from Cali, Colombia, working as an AI engineer. I like data that moves through time: state-space models, Kalman filters and honest uncertainty, in R and Python, after five years modelling climate and crops at CIAT.</p>
+    <p class="home-cta"><a href="blog/index.qmd">Read latest posts →</a><a href="cv.qmd">See the CV →</a></p>
   </div>
-  <div class="hc-console" role="group" aria-label="Simulation controls">
-    <p class="hc-label">Interactive: AR(1) simulation</p>
-    <div class="hc-phi">
-      <label for="hc-phi"><span class="hc-phi-word">Persistence </span><b>φ = <span data-phi-val></span></b></label>
-      <input id="hc-phi" data-phi type="range" min="0.85" max="0.995" step="0.001">
-      <span>half-life <b data-hl></b> steps</span>
-    </div>
-    <div class="hc-row">
-      <button class="hc-mini" data-shock type="button">Shock</button>
-      <button class="hc-mini" data-replay type="button">Replay</button>
-      <div class="hc-read" data-read aria-hidden="true"></div>
-    </div>
-  </div>
-  <div class="hc-keys" aria-hidden="true">
-    <span class="hc-k hc-k-lo" data-k="lo"><i></i>from −4.7</span>
-    <span class="hc-k hc-k-hi" data-k="hi"><i></i>from +4.7</span>
-  </div>
-  <noscript><style>.hc-console,.hc-keys{display:none}</style></noscript>
 </section>
-<script src="assets/hero.js" defer></script>
+<script src="assets/galton.js" defer></script>
 ```
-
-::: {.home-intro}
-I'm a statistician from Cali, Colombia. I like data that moves through time, and most of what I know is about reasoning with it: state-space models, Kalman filters and honest uncertainty.
-
-I spent five years at CIAT modelling climate and crops, then moved to industry machine learning. I currently work as an AI engineer.
-
-::: {.home-links}
-[See my work →](projects.qmd)
-[Publications →](publications.qmd)
-[Google Scholar →](https://scholar.google.com/citations?user=ZPe2yT4AAAAJ)
-:::
-:::

@@ -3,7 +3,7 @@ project:
   output-dir: docs
   resources:
     - assets/fonts/OFL-*.txt
-    - assets/hero.js
+    - assets/galton.js
   render:
     - "*.qmd"
     - "blog/**/*.qmd"
@@ -26,6 +26,8 @@ website:
     right:
       - href: about.qmd
         text: About
+      - href: blog/index.qmd
+        text: Blog
       - href: projects.qmd
         text: Projects
       - href: publications.qmd
@@ -40,7 +42,7 @@ website:
         aria-label: LinkedIn
   page-footer:
     border: false
-    left: "© 2026 Jeison Mesa"
+    left: "© 2026 Jeison Mesa · Made with Quarto"
 
 format:
   html:
