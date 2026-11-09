@@ -19,13 +19,14 @@ include-in-header:
       <p class="hc-role">Statistician and data scientist</p>
       <p class="hc-tag">Time series, state-space models and machine learning in R and Python.</p>
     </div>
-    <nav class="hc-cta" aria-label="Profiles">
+    <nav class="hc-cta" aria-label="Site sections">
       <a class="hc-btn pri" href="cv.qmd">CV</a>
-      <a class="hc-btn" href="https://github.com/Jeikosd">GitHub</a>
-      <a class="hc-btn" href="https://www.linkedin.com/in/jeison-mesa-27149ab5">LinkedIn</a>
+      <a class="hc-btn" href="projects.qmd">Projects</a>
+      <a class="hc-btn" href="about.qmd">About</a>
     </nav>
   </div>
   <div class="hc-console" role="group" aria-label="Simulation controls">
+    <p class="hc-label">Interactive: AR(1) simulation</p>
     <div class="hc-phi">
       <label for="hc-phi"><span class="hc-phi-word">Persistence </span><b>φ = <span data-phi-val></span></b></label>
       <input id="hc-phi" data-phi type="range" min="0.85" max="0.995" step="0.001">
@@ -49,10 +50,9 @@ include-in-header:
 ::: {.home-intro}
 I'm a statistician from Cali, Colombia. I like data that moves through time, and most of what I know is about reasoning with it: state-space models, Kalman filters and honest uncertainty.
 
-I spent five years at CIAT modelling climate and crops, then moved to industry machine learning. I currently work as an AI engineer. This site is where I write down what I learn, with code in R and Python.
+I spent five years at CIAT modelling climate and crops, then moved to industry machine learning. I currently work as an AI engineer.
 
 ::: {.home-links}
-[Read the blog →](blog/index.qmd)
 [See my work →](projects.qmd)
 [Publications →](publications.qmd)
 [Google Scholar →](https://scholar.google.com/citations?user=ZPe2yT4AAAAJ)

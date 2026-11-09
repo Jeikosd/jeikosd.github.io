@@ -1,16 +1,4 @@
 /* CV page only */
-main.content h2 {
-  font-family: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
-  font-size: 0.78rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.14em;
-  color: var(--soft);
-  margin-top: 2.4rem;
-  margin-bottom: 0.6rem;
-  padding-bottom: 0.35rem;
-  border-bottom: 1px solid var(--hairline);
-}
 main.content h3.cv-role {
   display: flex;
   flex-wrap: wrap;

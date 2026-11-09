@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Neutral portrait placeholder">
-  <clipPath id="c"><circle cx="256" cy="256" r="256"/></clipPath>
-  <g clip-path="url(#c)">
-    <rect width="512" height="512" fill="#e2dfd7"/>
-    <circle cx="256" cy="200" r="92" fill="#8aa6aa"/>
-    <path d="M72 512c0-118 82-196 184-196s184 78 184 196z" fill="#8aa6aa"/>
-  </g>
-</svg>
