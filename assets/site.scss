@@ -323,10 +323,35 @@ div.quarto-about-trestles {
   padding: 0;
   border: 0;
 }
-.about-spark { display: block; margin: 0 0 1.4rem; }
-.about-spark path { fill: none; stroke-width: 1.2; stroke-linejoin: round; }
-.about-spark .s-a { stroke: var(--accent); }
-.about-spark .s-w { stroke: var(--warm); }
+
+// About: Kalman filter figure in the portrait slot of the rail
+.about-kalman {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto 1.2rem;
+  overflow: visible;
+  .about-entity & { margin: 0 auto; }
+  path { fill: none; stroke-linejoin: round; stroke-linecap: round; }
+  .kf-panel { fill: var(--panel); }
+  .kf-gap { fill: var(--hairline); opacity: 0.55; }
+  .kf-state { stroke: var(--soft); stroke-width: 1.4; stroke-dasharray: 3 3; }
+  .kf-band { fill: var(--accent); fill-opacity: 0.18; stroke: none; }
+  .kf-est { stroke: var(--accent); stroke-width: 2; }
+  .kf-obs circle, .kf-dot { fill: var(--warm); stroke: var(--panel); stroke-width: 1; }
+  .kf-key .kf-dot { stroke: none; }
+  .kf-key text { fill: var(--soft); font-family: $font-family-sans-serif; font-size: 11px; }
+  .kf-run { animation: kf-sweep 3.2s linear 0.2s both; }
+}
+// Observations arrive left to right: the estimate and its band are revealed with them
+@keyframes kf-sweep {
+  from { clip-path: inset(0 100% 0 0); }
+  to { clip-path: inset(0 0 0 0); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .about-kalman .kf-run { animation: none; }
+}
 
 // Publications
 .pub-list li { margin-bottom: 0.8rem; }
