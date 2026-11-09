@@ -1,9 +1,12 @@
 ---
 title: "Projects"
 description: "Public work in forecasting, climate and agriculture, with links to papers and code."
+format:
+  html:
+    css: assets/section-labels.css
 ---
 
-This is the public part of my work, most of it from my years at CIAT. My industry work for Globant's clients isn't public, so it appears only as a summary on the [CV](cv.qmd). Tutorial repositories in R and Python will land here as I publish them.
+This is the public part of my work, most of it from my years at CIAT. My industry work for Globant's clients isn't public, so it appears only as a summary on the [CV](cv.qmd).
 
 ::: {.project .project-lead}
 ### Forecasting the El Niño signal
@@ -12,7 +15,7 @@ This is the public part of my work, most of it from my years at CIAT. My industr
 
 {{< include _fan-chart.md >}}
 
-<p class="fan-caption">The Oceanic Niño Index through September 2026, the El Niño signal behind much of the year-to-year swing in Colombia's rainfall, with a 24-month forecast and its 50% and 90% intervals. A state-space model fitted with a Kalman filter, <a href="https://github.com/Jeikosd/jeikosd.github.io/blob/main/scripts/fan_chart.py">in about 200 lines of Python</a>.</p>
+<p class="fan-caption">The Oceanic Niño Index (NOAA Climate Prediction Center data) through September 2026, the El Niño signal behind much of the year-to-year swing in Colombia's rainfall, with a 24-month forecast and its 50% and 90% intervals. A state-space model fitted with a Kalman filter, <a href="https://github.com/Jeikosd/jeikosd.github.io/blob/main/scripts/fan_chart.py">in about 200 lines of Python</a>.</p>
 :::
 
 ::: {.project}
@@ -58,7 +61,7 @@ Simulations of near-term climate change impacts on major crops, built on crop mo
 ::: {.project}
 ### Climate vulnerability of *Espeletia* in the páramo
 
-[Climate modelling · 2020 · my most cited paper]{.project-meta}
+[Climate modelling · 2020]{.project-meta}
 
 An assessment of how climate change threatens the *Espeletia* complex on the páramo sky islands of the northern Andes. Co-author.
 

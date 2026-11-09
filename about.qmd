@@ -1,15 +1,11 @@
 ---
 title: "Jeison Mesa"
 subtitle: "Statistician and data scientist"
-pagetitle: "About | Jeison Mesa"
+pagetitle: "About"
 description: "Statistician and data scientist with a time series background, working in R and Python."
 page-layout: full
 about:
   template: trestles
-  image: assets/avatar.svg
-  image-shape: round
-  image-width: 9em
-  image-alt: "Avatar of Jeison Mesa"
   links:
     - icon: github
       href: https://github.com/Jeikosd
@@ -20,9 +16,12 @@ about:
     - icon: mortarboard-fill
       href: https://scholar.google.com/citations?user=ZPe2yT4AAAAJ
       text: Google Scholar
+format:
+  html:
+    css: assets/section-labels.css
 ---
 
-<p class="about-greeting">Hola.</p>
+<h2 class="about-title">About</h2>
 
 ```{=html}
 <svg class="about-spark" viewBox="0 0 180 32" width="180" height="32" aria-hidden="true" focusable="false"><path class="s-a" d="M0 3.6L3 5.5L6 7.2L9 9.4L12 10.2L15 11.8L18 11.5L21 12.3L24 11.8L27 12.2L30 13.1L33 12.5L36 13.8L39 13.4L42 13.4L45 14.1L48 13.7L51 12.4L54 12.2L57 13.3L60 14.5L63 13.5L66 13.0L69 12.4L72 12.5L75 13.7L78 14.5L81 13.5L84 12.5L87 13.3L90 15.7L93 16.3L96 16.3L99 16.2L102 16.9L105 16.4L108 16.0L111 16.9L114 17.1L117 16.3L120 17.4L123 16.5L126 17.5L129 18.2L132 17.9L135 18.4L138 17.8L141 19.1L144 18.0L147 18.7L150 16.8L153 17.6L156 18.6L159 18.7L162 17.2L165 16.3L168 16.5L171 17.8L174 19.0L177 19.6L180 19.5"/><path class="s-w" d="M0 28.4L3 27.3L6 27.1L9 26.7L12 25.6L15 23.5L18 21.5L21 20.6L24 20.6L27 19.1L30 19.9L33 19.4L36 18.9L39 21.0L42 19.9L45 17.8L48 17.5L51 18.3L54 19.0L57 18.5L60 18.5L63 18.4L66 18.7L69 19.3L72 19.8L75 19.5L78 19.8L81 20.2L84 19.9L87 19.4L90 18.9L93 19.1L96 19.0L99 17.5L102 17.4L105 16.9L108 16.2L111 17.3L114 18.4L117 18.6L120 18.4L123 18.0L126 18.2L129 18.2L132 16.5L135 15.8L138 16.1L141 16.1L144 14.5L147 16.3L150 14.4L153 15.3L156 14.6L159 14.2L162 14.0L165 15.1L168 14.6L171 14.6L174 14.0L177 14.8L180 15.3"/></svg>
@@ -32,7 +31,7 @@ I'm Jeison, a statistician from Cali, Colombia. I studied statistics at Universi
 
 After my degree I joined CIAT, the International Center for Tropical Agriculture, where I spent five years on climate and agriculture. I modelled how climate change could affect crops across Latin America, ran crop simulations from R, and worked on the statistical models behind AClimate Colombia's seasonal forecasts. As part of CIAT's climate services team I shared in a UNFCCC Momentum for Change award in 2017, and the work led to papers in journals such as *Climate Services*, *Frontiers in Ecology and Evolution* and *Computers and Electronics in Agriculture*.
 
-In 2020 and 2021 I taught time series and probability at Universidad del Valle and fundamentals of statistics at Universidad Católica. I have also co-directed an undergraduate thesis on the spectral analysis of cumbia, which is as much fun as it sounds.
+In 2020 and 2021 I taught time series and probability at Universidad del Valle and fundamentals of statistics at Universidad Católica. I have also co-directed an undergraduate thesis on the spectral analysis of cumbia.
 
 Since 2021 I've worked at Globant on machine learning for customers in several industries: churn, segmentation, pricing, forecasting and recommendation. For a media and telecommunications client I worked on the churn model, the segmentation and the marketing campaign work behind them. I currently work as an AI engineer at Globant, with Disney as the client, where I work on the agent design of LLM systems.
 
@@ -43,10 +42,6 @@ Since 2021 I've worked at Globant on machine learning for customers in several i
 - Getting a model out of a notebook and into something other people rely on
 - Deciding which steps of an LLM system should stay deterministic, and how to check its output
 
-## What I write about
+## More
 
-Tutorials in R and Python on statistics and data science, deep learning, AI engineering and data engineering, starting with time series. Posts with code link to a repository you can clone and run. They're on the [blog](blog/index.qmd).
-
-## Elsewhere
-
-My full work history is on the [CV](cv.qmd), and papers are under [Publications](publications.qmd). You can also find me on [GitHub](https://github.com/Jeikosd), [LinkedIn](https://www.linkedin.com/in/jeison-mesa-27149ab5) and [Google Scholar](https://scholar.google.com/citations?user=ZPe2yT4AAAAJ).
+My full work history is on the [CV](cv.qmd), and my papers are under [Publications](publications.qmd).

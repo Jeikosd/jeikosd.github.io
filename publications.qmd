@@ -1,13 +1,12 @@
 ---
 title: "Publications"
 description: "Journal articles, reports and conference contributions on climate, agriculture and statistics."
+format:
+  html:
+    css: assets/section-labels.css
 ---
 
 Most of my papers come from my years at CIAT, on climate, crops and water. Citation counts are on [Google Scholar](https://scholar.google.com/citations?user=ZPe2yT4AAAAJ&hl=en).
-
-::: {.metrics}
-[[7]{.metric-value}[journal articles]{.metric-label}]{.metric}
-:::
 
 ## Journal articles
 

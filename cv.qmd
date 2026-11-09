@@ -1,13 +1,15 @@
 ---
 title: "Jeison Mesa Diez"
 subtitle: "Statistician and data scientist. Time series, state-space models and machine learning in R and Python."
-pagetitle: "CV | Jeison Mesa"
+pagetitle: "CV"
 filters:
   - assets/cv-roles.lua
 format-links: false
 format:
   html:
-    css: assets/cv.css
+    css:
+      - assets/section-labels.css
+      - assets/cv.css
   typst:
     output-file: Jeison_Mesa_CV.pdf
     papersize: a4

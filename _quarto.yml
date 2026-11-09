@@ -13,8 +13,15 @@ website:
   description: "Statistician and data scientist. Time series, state-space models and machine learning in R and Python."
   site-url: https://jeikosd.github.io
   favicon: assets/favicon.svg
-  open-graph: true
-  twitter-card: true
+  open-graph:
+    image: assets/social-card.png
+    image-width: 1200
+    image-height: 630
+    image-alt: "Jeison Mesa, statistician and data scientist"
+  twitter-card:
+    card-style: summary_large_image
+    image: assets/social-card.png
+    image-alt: "Jeison Mesa, statistician and data scientist"
   navbar:
     right:
       - href: about.qmd
@@ -23,8 +30,6 @@ website:
         text: Projects
       - href: publications.qmd
         text: Publications
-      - href: blog/index.qmd
-        text: Blog
       - href: cv.qmd
         text: CV
       - icon: github
@@ -36,7 +41,6 @@ website:
   page-footer:
     border: false
     left: "© 2026 Jeison Mesa"
-    right: "Built with [Quarto](https://quarto.org)"
 
 format:
   html:
