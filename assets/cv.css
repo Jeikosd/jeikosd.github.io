@@ -1,0 +1,64 @@
+/* CV page only */
+main.content h2 {
+  font-family: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--soft);
+  margin-top: 2.4rem;
+  margin-bottom: 0.6rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--hairline);
+}
+main.content h3.cv-role {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 1rem;
+  margin-top: 1.8rem;
+  font-family: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
+  font-size: 1.02rem;
+  font-weight: 600;
+  color: var(--ink);
+}
+main.content h3.cv-role .anchorjs-link { position: absolute; }
+main.content .cv-dates {
+  margin-left: auto;
+  font-size: 0.8rem;
+  font-weight: 400;
+  color: var(--soft);
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+main.content p { line-height: 1.6; }
+main.content strong { font-weight: 600; color: var(--ink); }
+main.content ul { padding-left: 1.1rem; }
+main.content li { font-size: 0.95rem; margin-bottom: 0.3rem; }
+main.content li::marker { color: var(--accent); }
+main.content .cv-download { margin: 0.2rem 0 1.5rem; }
+main.content .cv-download p a.cv-btn {
+  display: inline-block;
+  padding: 0.45rem 1rem;
+  border: 1px solid var(--ink);
+  border-radius: 0;
+  background: transparent;
+  color: var(--ink);
+  font-size: 0.78rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+}
+main.content .cv-download p a.cv-btn:hover {
+  background: var(--ink);
+  color: var(--bs-body-bg);
+  text-decoration: none;
+}
+main.content .cv-download p a.cv-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+@media (max-width: 559px) {
+  main.content .cv-dates { margin-left: 0; flex-basis: 100%; white-space: normal; }
+}

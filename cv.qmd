@@ -6,7 +6,8 @@ filters:
   - assets/cv-roles.lua
 format-links: false
 format:
-  html: default
+  html:
+    css: assets/cv.css
   typst:
     output-file: Jeison_Mesa_CV.pdf
     papersize: a4
@@ -26,7 +27,7 @@ Colombia · [jeikosd.github.io](https://jeikosd.github.io) · [github.com/Jeikos
 
 ::: {.content-visible when-format="html"}
 ::: {.cv-download}
-[Download the PDF →](Jeison_Mesa_CV.pdf)
+[Download the PDF](Jeison_Mesa_CV.pdf){.cv-btn}
 :::
 :::
 
