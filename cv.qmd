@@ -40,13 +40,13 @@ I am a statistician and data scientist with more than ten years of work in R and
 
 At CIAT I spent five years modelling how climate change affects crops and other productive sectors, using probabilistic time series and state-space models, and I worked on the statistical models behind the AClimate Colombia seasonal forecasts. As part of the CIAT climate services team I shared in the 2017 UNFCCC Momentum for Change award.
 
-Since 2021 I have worked in industry on churn, segmentation, pricing, forecasting and recommendation for Globant's clients. A churn model earns its keep when its drivers become customer segments that a marketing team can write a campaign for, so that is where I put the effort.
+Since 2021 I have worked in industry on churn, segmentation, pricing, forecasting and recommendation for Globant's clients. I led the team on subscriber segmentation for a media client. A churn model earns its keep when its drivers become customer segments that a marketing team can write a campaign for, so that is where I put the effort.
 
-My publications sit mostly in climate and agriculture: seven journal articles and two reports as co-author. I currently work as an AI engineer at Globant, with Disney as the client, where I work on the agent design of LLM systems built with LangGraph and Azure OpenAI.
+I have taught statistics at three universities and co-directed an undergraduate thesis. My publications sit mostly in climate and agriculture: seven journal articles and two reports as co-author. I currently work as an AI engineer at Globant, with Disney as the client, where I work on the agent design of LLM systems built with LangGraph and Azure OpenAI.
 :::
 
 ::: {.content-visible when-format="typst"}
-Statistician and data scientist with more than ten years of work in R and Python. I spent five years at CIAT modelling climate impacts on crops with probabilistic time series and state-space models, shared in the 2017 UNFCCC Momentum for Change award as part of the climate services team, and co-authored seven journal articles. Since 2021 I have worked in industry on churn, segmentation, pricing, forecasting and recommendation for Globant's clients. I currently work as an AI engineer at Globant, with Disney as the client, where I work on the agent design of LLM systems.
+Statistician and data scientist with more than ten years in R and Python. Five years at CIAT on state-space and time series models behind national seasonal forecasts and a shared 2017 UN award; since 2021 at Globant, taking models to production for clients, now designing LLM agent systems. Seven journal articles as co-author; co-director of an undergraduate thesis; university teaching.
 :::
 
 ## Experience
@@ -54,7 +54,7 @@ Statistician and data scientist with more than ten years of work in R and Python
 ### AI Engineer, Globant (client: Disney) {.cv-role dates="Dec 2025 – Present · Remote, Colombia"}
 
 - Work on agent design for multi-agent LLM systems, including prompt engineering and the contracts between agents.
-- Designed and implemented a multi-agent system that reads a codebase and writes its documentation. Set the split between deterministic and LLM steps, and tightened the schemas agents exchange so that a bad output fails loudly instead of slipping through.
+- Designed and implemented a multi-agent system that reads a codebase and writes its documentation. Led the prompt engineering and set the split between deterministic and LLM steps, and tightened the schemas agents exchange so that a bad output fails loudly instead of slipping through.
 - Built a conversational intake agent for internal product requests. It pushes back on vague or solution-first input and flags overlap across teams.
 - Built the ETL and LLM engine behind scheduled reports. Live data from project-management tools goes into one reporting model under extraction rules that keep field-level provenance, with checks that run before anything is distributed.
 
@@ -69,23 +69,23 @@ Tools: Python, LangGraph, Azure OpenAI, REST APIs, Docker, Git, CI/CD.
 
 **Augmented Staffing, internal to Globant** (Feb 2022 – Jan 2023)
 
-- Forecast and clustered internal staffing tickets to plan recruiting.
+- Owned the end-to-end forecasting and clustering of internal staffing tickets, used to plan recruiting.
 - Built a semantic search and recommendation tool that matched candidates to tickets on text embeddings, then added a seniority estimation model in PyTorch with an ordinal loss to improve the match. Pipelines ran on Kubeflow.
 
 **Media and telecommunications client** (May 2021 – Dec 2021)
 
-- Worked on subscriber segmentation, the churn model and the marketing campaign work.
+- Led the team on subscriber segmentation and directed the data science work on the churn model and the marketing campaigns.
 - The churn model combined platform usage with sentiment from text, using custom neural networks in PyTorch. Its feature importance fed the segments.
 - Retention and acquisition email campaigns drew on an econometric analysis of subscription pricing and a market basket analysis. Pipelines ran on AWS SageMaker, with data from Athena and S3.
 
 ### Professor (part-time), Universidad del Valle and Universidad Católica {.cv-role dates="Aug 2020 – Jun 2021 · Cali, Colombia"}
 
-- Universidad del Valle: Time Series Analysis and Probability. Universidad Católica: Fundamentals of Statistics I and II.
+- Taught Time Series Analysis and Probability at Universidad del Valle, and Fundamentals of Statistics I and II at Universidad Católica.
 
 ### Data Scientist, CIAT (International Center for Tropical Agriculture) {.cv-role dates="Jan 2015 – Mar 2020 · Cali, Colombia"}
 
 - Modelled climate variables and their effect on crops and other productive sectors with probabilistic time series models, state-space models and spatio-temporal stochastic processes.
-- Worked on the statistical models behind the AClimate Colombia seasonal forecast platform ([paper](https://doi.org/10.1016/j.compag.2020.105486)).
+- Developed the statistical models behind the AClimate Colombia seasonal forecast platform ([paper](https://doi.org/10.1016/j.compag.2020.105486)).
 - Studied near-term climate change impacts on major crops in Latin America and the Caribbean for the IDB and USAID. Set up multiple DSSAT and ORYZA runs from R for the region's five main production systems and combined them with machine learning and geostatistics.
 - Mapped climate service hotspots worldwide for USAID (2017–2018), meaning places where agro-climatic information could help close yield gaps. GAMs and other machine learning, the whole process in R ([AgMetGaps](https://ciat-dapa.github.io/AgMetGaps/)).
 - Built an index with spatial machine learning models to support the breeding of climate-smart crops.
@@ -134,6 +134,8 @@ Statistical consultant for engineering theses and statistical assistant at Unive
 **B.Sc. in Statistics**, Universidad del Valle, Cali (2008 – 2014). Thesis: *Comparison of estimation methods for the fractional differencing parameter in conditionally heteroscedastic long-memory time series.*
 
 **Thesis supervision:** co-director of an undergraduate thesis in Statistics, Universidad del Valle (2023), *Spectral analysis of Colombian genres: La Cumbia* (in Spanish). [Open access](https://hdl.handle.net/10893/30344).
+
+**Talks:** principal speaker on the thesis at the ESPOL statistics and informatics conference (Ecuador, 2014) and at a Universidad Nacional de Colombia and Universidad del Valle summer school (2013). Co-author at the AGU Fall Meeting (2016).
 
 ## Awards
 
