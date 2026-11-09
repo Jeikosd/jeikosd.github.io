@@ -1,5 +1,5 @@
 ---
-title: "Jeison Mesa Diez"
+title: "Jeison Mesa"
 subtitle: "Statistician and data scientist. Time series, state-space models and machine learning in R and Python."
 pagetitle: "CV"
 filters:
