@@ -2,38 +2,59 @@
 pagetitle: "Jeison Mesa"
 description: "Statistician and data scientist. Time series, state-space models and machine learning in R and Python."
 page-layout: custom
+include-in-header:
+  text: |
+    <link rel="preload" href="site_libs/bootstrap/assets/fonts/Newsreader-400-normal.ttf" as="font" type="font/ttf" crossorigin>
 ---
 
-::: {.hero}
+```{=html}
+<section class="hc" id="hc" aria-labelledby="hc-name">
+  <div class="hc-art" role="img" aria-label="Two bundles of autoregressive random paths start far apart at the top corners and braid together as they fall into a single band. A histogram with its exact density, standing on the name, shows two humps merging into one normal distribution.">
+    <canvas data-gl aria-hidden="true"></canvas>
+    <canvas data-ov aria-hidden="true"></canvas>
+  </div>
+  <h1 class="hc-name" id="hc-name">Jeison Mesa</h1>
+  <div class="hc-sub">
+    <div>
+      <p class="hc-role">Statistician and data scientist</p>
+      <p class="hc-tag">Time series, state-space models and machine learning in R and Python.</p>
+    </div>
+    <nav class="hc-cta" aria-label="Profiles">
+      <a class="hc-btn pri" href="cv.qmd">CV</a>
+      <a class="hc-btn" href="https://github.com/Jeikosd">GitHub</a>
+      <a class="hc-btn" href="https://www.linkedin.com/in/jeison-mesa-27149ab5">LinkedIn</a>
+    </nav>
+  </div>
+  <div class="hc-console" role="group" aria-label="Simulation controls">
+    <div class="hc-phi">
+      <label for="hc-phi"><span class="hc-phi-word">Persistence </span><b>φ = <span data-phi-val></span></b></label>
+      <input id="hc-phi" data-phi type="range" min="0.85" max="0.995" step="0.001">
+      <span>half-life <b data-hl></b> steps</span>
+    </div>
+    <div class="hc-row">
+      <button class="hc-mini" data-shock type="button">Shock</button>
+      <button class="hc-mini" data-replay type="button">Replay</button>
+      <div class="hc-read" data-read aria-hidden="true"></div>
+    </div>
+  </div>
+  <div class="hc-keys" aria-hidden="true">
+    <span class="hc-k hc-k-lo" data-k="lo"><i></i>from −4.7</span>
+    <span class="hc-k hc-k-hi" data-k="hi"><i></i>from +4.7</span>
+  </div>
+  <noscript><style>.hc-console,.hc-keys{display:none}</style></noscript>
+</section>
+<script src="assets/hero.js" defer></script>
+```
 
-<h1 class="hero-name">Jeison Mesa</h1>
-
-<p class="hero-role">Statistician and data scientist</p>
-
-{{< include _fan-chart.md >}}
-
-<p class="hero-caption">The Oceanic Niño Index through September 2026, the El Niño signal behind much of the year-to-year swing in Colombia's rainfall, with a 24-month forecast and its 50% and 90% intervals. A state-space model fitted with a Kalman filter, <a href="https://github.com/Jeikosd/jeikosd.github.io/blob/main/scripts/fan_chart.py">in about 200 lines of Python</a>.</p>
-
-::: {.hero-body}
-
-::: {.hero-bio}
+::: {.home-intro}
 I'm a statistician from Cali, Colombia. I like data that moves through time, and most of what I know is about reasoning with it: state-space models, Kalman filters and honest uncertainty.
 
-I spent six years at CIAT modelling climate and crops, then moved to industry machine learning. I currently work as an AI engineer. This site is where I write down what I learn, with code in R and Python.
-:::
+I spent five years at CIAT modelling climate and crops, then moved to industry machine learning. I currently work as an AI engineer. This site is where I write down what I learn, with code in R and Python.
 
-::: {.hero-links}
+::: {.home-links}
 [Read the blog →](blog/index.qmd)
-
 [See my work →](projects.qmd)
-
 [Publications →](publications.qmd)
-
-[CV →](cv.qmd)
-
-<p class="hero-icons"><a href="https://github.com/Jeikosd" aria-label="GitHub"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/jeikosd" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a> <a href="https://scholar.google.com/citations?user=ZPe2yT4AAAAJ" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a></p>
+[Google Scholar →](https://scholar.google.com/citations?user=ZPe2yT4AAAAJ)
 :::
-
-:::
-
 :::

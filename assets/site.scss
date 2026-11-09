@@ -1,5 +1,4 @@
 /*-- scss:defaults --*/
-@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..700;1,300..700&family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap");
 
 $font-family-sans-serif: "Figtree", system-ui, -apple-system, "Segoe UI", sans-serif;
 $headings-font-family: "Newsreader", Georgia, serif;
@@ -10,6 +9,19 @@ $link-decoration: none;
 $link-hover-decoration: underline;
 
 /*-- scss:rules --*/
+
+// Self-hosted fonts (paths are relative to the project root)
+@font-face { font-family: "Figtree"; font-weight: 400; font-style: normal; font-display: swap; src: url("assets/fonts/Figtree-400-normal.ttf") format("truetype"); }
+@font-face { font-family: "Figtree"; font-weight: 400; font-style: italic; font-display: swap; src: url("assets/fonts/Figtree-400-italic.ttf") format("truetype"); }
+@font-face { font-family: "Figtree"; font-weight: 500; font-style: normal; font-display: swap; src: url("assets/fonts/Figtree-500-normal.ttf") format("truetype"); }
+@font-face { font-family: "Figtree"; font-weight: 600; font-style: normal; font-display: swap; src: url("assets/fonts/Figtree-600-normal.ttf") format("truetype"); }
+@font-face { font-family: "Figtree"; font-weight: 600; font-style: italic; font-display: swap; src: url("assets/fonts/Figtree-600-italic.ttf") format("truetype"); }
+@font-face { font-family: "Figtree"; font-weight: 700; font-style: normal; font-display: swap; src: url("assets/fonts/Figtree-700-normal.ttf") format("truetype"); }
+@font-face { font-family: "Newsreader"; font-weight: 300; font-style: normal; font-display: swap; src: url("assets/fonts/Newsreader-300-normal.ttf") format("truetype"); }
+@font-face { font-family: "Newsreader"; font-weight: 400; font-style: normal; font-display: swap; src: url("assets/fonts/Newsreader-400-normal.ttf") format("truetype"); }
+@font-face { font-family: "Newsreader"; font-weight: 400; font-style: italic; font-display: swap; src: url("assets/fonts/Newsreader-400-italic.ttf") format("truetype"); }
+@font-face { font-family: "Newsreader"; font-weight: 500; font-style: normal; font-display: swap; src: url("assets/fonts/Newsreader-500-normal.ttf") format("truetype"); }
+@font-face { font-family: "Newsreader"; font-weight: 600; font-style: normal; font-display: swap; src: url("assets/fonts/Newsreader-600-normal.ttf") format("truetype"); }
 
 // Base
 h1, h2, h3, h4 { color: var(--ink); letter-spacing: -0.005em; }
@@ -46,55 +58,196 @@ a { text-underline-offset: 0.18em; }
 // Footer
 .nav-footer { border-top: 1px solid var(--hairline); font-size: 0.82rem; }
 
-// Home
-#quarto-content > .hero {
-  max-width: 1120px;
-  margin: 0 auto;
-  padding: clamp(2.2rem, 6vh, 3.6rem) 1.5rem 2rem;
+// Home: hero
+.hc {
+  --paper: #fbfaf7; --hc-ink: #1b1f24; --hc-soft: #62676d; --hc-accent: #1f6f78; --hc-warm: #c9822b; --dark: 0;
+  color-scheme: light;
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  grid-template-rows: minmax(180px, 1fr) auto auto auto;
+  min-height: max(30rem, calc(100vh - var(--hc-nav, 3.9rem)));
+  min-height: max(30rem, calc(100svh - var(--hc-nav, 3.9rem)));
+  padding: 0 clamp(16px, 3.4vw, 44px) 12px;
+  background: var(--paper);
+  color: var(--hc-ink);
+  touch-action: pan-y;
 }
-.hero-name {
+@mixin hc-dark {
+  --paper: #14181c; --hc-ink: #eceef0; --hc-soft: #9aa0a6; --hc-accent: #5cbac4; --hc-warm: #e0a45a; --dark: 1;
+  color-scheme: dark;
+}
+@mixin hc-light {
+  --paper: #fbfaf7; --hc-ink: #1b1f24; --hc-soft: #62676d; --hc-accent: #1f6f78; --hc-warm: #c9822b; --dark: 0;
+  color-scheme: light;
+}
+@media (prefers-color-scheme: dark) { .hc { @include hc-dark; } }
+body.quarto-light .hc { @include hc-light; }
+body.quarto-dark .hc { @include hc-dark; }
+
+.hc-art, .hc-art canvas { position: absolute; inset: 0; width: 100%; height: 100%; display: block; }
+.hc-name {
+  grid-row: 2;
+  position: relative;
+  z-index: 2;
+  margin: 0 0 0.07em;
   font-family: $headings-font-family;
-  font-size: clamp(3.2rem, 9vw, 6.4rem);
-  font-weight: 300;
-  line-height: 1;
-  letter-spacing: -0.025em;
-  margin: 0;
+  font-size: min(18.9vw, 28vh);
+  font-weight: 400;
+  line-height: 0.84;
+  letter-spacing: -0.035em;
+  white-space: nowrap;
+  text-align: center;
+  color: var(--hc-ink);
 }
-.hero-role {
+.hc-sub {
+  grid-row: 3;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.5rem;
+}
+.hc-role {
+  margin: 0;
   font-family: $headings-font-family;
   font-style: italic;
-  font-size: clamp(1.2rem, 2.6vw, 1.65rem);
-  color: var(--accent);
-  margin: 0.5rem 0 0;
+  font-size: clamp(1.3rem, 2.1vw, 1.65rem);
+  line-height: 1.2;
+  color: var(--hc-accent);
 }
-.fan-chart { display: block; width: 100%; height: auto; margin-top: 1.2rem; }
+.hc-tag { margin: 0.15rem 0 0; font-size: 1rem; line-height: 1.4; color: var(--hc-soft); }
+.hc-cta { display: flex; flex: none; gap: 0.45rem; }
+a.hc-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0.5rem 1.15rem;
+  border: 1px solid var(--hc-ink);
+  border-radius: 999px;
+  background: var(--paper);
+  color: var(--hc-ink);
+  font-size: 0.95rem;
+  font-weight: 500;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: background 0.15s, color 0.15s;
+  &:hover { background: var(--hc-ink); color: var(--paper); text-decoration: none; }
+  &.pri { background: var(--hc-ink); color: var(--paper); }
+  &.pri:hover { background: var(--hc-accent); border-color: var(--hc-accent); color: var(--paper); }
+}
+.hc a:focus-visible, .hc button:focus-visible, .hc input:focus-visible { outline: 2px solid var(--hc-accent); outline-offset: 3px; }
+
+// Simulation controls: a quiet footnote to the art, after name, role and links
+.hc-console {
+  grid-row: 4;
+  position: relative;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.2rem 1.4rem;
+  margin-top: 0.7rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid color-mix(in srgb, var(--hc-soft) 25%, transparent);
+  font-size: 0.78rem;
+  color: var(--hc-soft);
+  font-variant-numeric: tabular-nums;
+}
+.hc-phi { display: flex; align-items: center; gap: 0.55rem; white-space: nowrap; }
+.hc-phi label { margin: 0; }
+.hc-phi b { font-weight: 500; }
+.hc-phi > span { min-width: 8.6em; } // keeps the row still while the half-life changes length
+.hc-phi input { width: 110px; height: 24px; margin: 0; accent-color: var(--hc-soft); cursor: ew-resize; }
+.hc-row { display: flex; align-items: center; gap: 0.35rem; }
+.hc-mini {
+  min-height: 26px;
+  padding: 0.15rem 0.65rem;
+  border: 1px solid color-mix(in srgb, var(--hc-soft) 45%, transparent);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--hc-soft);
+  font: inherit;
+  cursor: pointer;
+  &:hover { border-color: var(--hc-ink); color: var(--hc-ink); }
+}
+.hc-read { margin-left: 0.6rem; white-space: pre; }
+.hc-keys { position: absolute; inset: 0; pointer-events: none; }
+.hc-k {
+  position: absolute;
+  top: calc(var(--hc-base, 0px) - 24px);
+  padding: 2px 4px;
+  background: var(--paper);
+  color: var(--hc-soft);
+  font-size: 0.74rem;
+  line-height: 1;
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  i { display: inline-block; width: 16px; margin-right: 0.4rem; border-top: 2px solid; vertical-align: middle; }
+}
+.hc-k-lo { left: clamp(16px, 3.4vw, 44px); i { color: var(--hc-warm); } }
+.hc-k-hi { right: clamp(16px, 3.4vw, 44px); i { color: var(--hc-accent); } }
+@media (max-width: 759px) {
+  .hc-name { font-size: clamp(3rem, 17vw, 5.4rem); margin-bottom: 0.14em; }
+  .hc-sub { display: block; }
+  .hc-cta { margin-top: 0.6rem; }
+  a.hc-btn { flex: 1 1 0; padding: 0.4rem; }
+  .hc-console { display: block; margin-top: 0.6rem; padding-top: 0.35rem; }
+  .hc-phi { gap: 0.5rem; }
+  .hc-phi-word { display: none; }
+  .hc-phi input { flex: 1 1 0; min-width: 0; width: auto; }
+  .hc-row { margin-top: 0.15rem; }
+  .hc-mini { min-height: 32px; }
+  .hc-read { margin-left: auto; font-size: 0.72rem; }
+}
+
+// Short screens (landscape phones, 200% zoom): shrink the art so name, role and links fit in the first screen
+@media (max-height: 520px) {
+  .hc { min-height: 0; grid-template-rows: minmax(56px, 14vh) auto auto auto; }
+  .hc-name { font-size: min(18.9vw, 22vh); }
+  .hc-tag { display: none; }
+  .hc-console { margin-top: 0.4rem; padding-top: 0.3rem; }
+}
+
+// Body links: underlined so they are not told apart by colour alone
+main.content p a:not(.about-link):not(.hc-btn),
+main.content li a:not(.about-link):not(.hc-btn) {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in srgb, currentColor 45%, transparent);
+  &:hover { text-decoration-color: currentColor; }
+}
+
+// Home: intro under the hero
+.home-intro {
+  max-width: 36em;
+  margin: 0 auto;
+  padding: clamp(2.2rem, 7vh, 4rem) 1.25rem clamp(2rem, 6vh, 3.5rem);
+}
+.home-intro p { font-size: 1.12rem; }
+.home-links p { display: flex; flex-wrap: wrap; gap: 0.3rem 1.5rem; margin: 1.4rem 0 0; font-size: 1rem; font-weight: 500; }
+
+// El Nino fan chart (first entry on Projects)
+.fan-chart { display: block; width: 100%; height: auto; margin-top: 0.8rem; overflow: visible; }
 .fan-history { fill: none; stroke: var(--soft); stroke-width: 1.6; stroke-linejoin: round; }
 .fan-mean { fill: none; stroke: var(--warm); stroke-width: 2.4; stroke-linejoin: round; }
 .fan-90 { fill: var(--accent); fill-opacity: 0.14; }
 .fan-50 { fill: var(--accent); fill-opacity: 0.28; }
-.fan-zero { stroke: var(--hairline); stroke-width: 1; }
+.fan-zero { stroke: var(--soft); stroke-width: 1; opacity: 0.6; }
+.fan-grid { stroke: var(--hairline); stroke-width: 1; }
 .fan-now { fill: var(--warm); }
-.fan-tick { fill: var(--soft); font-size: 13px; text-anchor: middle; }
-.hero-caption {
-  font-size: 0.8rem;
-  color: var(--soft);
-  margin: 0.3rem 0 0;
-  line-height: 1.45;
-}
-.hero-body {
-  display: grid;
-  grid-template-columns: minmax(0, 2fr) minmax(0, 1fr);
-  gap: 2.5rem;
-  margin-top: 1.8rem;
-}
-.hero-bio p { font-size: 1.12rem; margin-bottom: 0.9rem; }
-.hero-links p { margin: 0 0 0.4rem; }
-.hero-links { font-weight: 500; }
-.hero-links .hero-icons { margin-top: 0.8rem; font-size: 1.25rem; }
-.hero-icons a { margin-right: 0.8rem; }
+.fan-tick { fill: var(--soft); font-size: 20px; text-anchor: middle; }
+.fan-ytick { fill: var(--soft); font-size: 20px; text-anchor: end; }
+.fan-unit { fill: var(--soft); font-size: 20px; text-anchor: start; }
+.fan-compact { display: none; }
+.fan-caption { font-size: 0.82rem; color: var(--soft); margin: 0.5rem 0 0.4rem; line-height: 1.45; }
 @media (max-width: 760px) {
-  .hero-body { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
-  .fan-tick { font-size: 22px; }
+  .fan-wide { display: none; }
+  .fan-compact { display: block; }
+  .fan-compact .fan-tick, .fan-compact .fan-ytick, .fan-compact .fan-unit { font-size: 22px; }
 }
 
 // Projects
@@ -108,6 +261,66 @@ a { text-underline-offset: 0.18em; }
   color: var(--soft);
   margin-bottom: 0.5rem;
 }
+
+// About: rail (avatar, name, role, icons) and text column
+div.quarto-about-trestles {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 2rem 0 1rem !important;
+  .about-entity { padding: 0 1.25rem; }
+  .about-contents > main { max-width: 38em; }
+  .about-entity .about-image { display: block; }
+  body.quarto-dark & .about-image { filter: brightness(0.72); }
+  .about-entity .quarto-title h1.title { font-size: 1.9rem; font-weight: 400; margin: 0.9rem 0 0; line-height: 1.15; }
+  .about-entity .quarto-title .subtitle {
+    margin: 0.5rem 0 0;
+    font-family: $font-family-sans-serif;
+    font-style: normal;
+    font-size: 0.76rem;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+  .about-entity .description, .about-entity .quarto-title-meta { display: none; }
+  .about-entity .about-links { display: flex; flex-direction: row; justify-content: center; gap: 0.3rem; margin-top: 0.7rem; padding-bottom: 1rem; }
+  .about-entity .about-links .about-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    padding: 0;
+    border: 0;
+    background: none;
+    color: var(--soft);
+    font-size: 1.15rem;
+    transition: color 0.15s;
+    &:hover { color: var(--accent); text-decoration: none; }
+  }
+  .about-link-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+}
+.about-greeting {
+  font-family: $headings-font-family;
+  font-size: clamp(2.6rem, 6vw, 4.5rem);
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin: 0 0 0.4rem;
+}
+.about-spark { display: block; margin: 0 0 1.4rem; }
+.about-spark path { fill: none; stroke-width: 1.2; stroke-linejoin: round; }
+.about-spark .s-a { stroke: var(--accent); }
+.about-spark .s-w { stroke: var(--warm); }
 
 // Publications
 .metrics { margin: 1.2rem 0 2.6rem; }
@@ -136,7 +349,7 @@ h3.cv-role .anchorjs-link { position: absolute; }
   font-family: $font-family-sans-serif;
   font-size: 0.8rem;
   font-weight: 400;
-  color: var(--soft);
+  color: color-mix(in srgb, var(--soft) 80%, var(--ink));
   white-space: nowrap;
 }
 .cv-download { margin: 0.2rem 0 1.5rem; font-weight: 500; }

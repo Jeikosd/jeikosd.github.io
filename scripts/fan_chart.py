@@ -103,11 +103,11 @@ def band(xs, lower, upper, sy):
     return polyline(top + bottom)
 
 
-def hero_svg(dates, y, means, sds):
-    width, height = 1200, 300
-    left, right, top, bottom = 4, 4, 14, 26
-    hist = y[-HISTORY:]
-    hist_dates = dates[-HISTORY:]
+def hero_svg(dates, y, means, sds, width=1200, height=300, history_n=HISTORY, name="fan-wide", year_step=2):
+    """Two sizes are emitted: CSS shows the compact one on phones, so text stays legible."""
+    left, right, top, bottom = round(width * 0.045), 6, 22, 30
+    hist = y[-history_n:]
+    hist_dates = dates[-history_n:]
     n = len(hist) + HORIZON
     last = len(hist) - 1
 
@@ -132,9 +132,18 @@ def hero_svg(dates, y, means, sds):
     history = polyline((sx(i), sy(v)) for i, v in enumerate(hist))
     centre = polyline(zip(xs, map(sy, mean)))
 
+    axis = []
+    for v in range(math.ceil(vmin), math.floor(vmax) + 1):
+        cls = "fan-zero" if v == 0 else "fan-grid"
+        text = "0" if v == 0 else f"{v:+d}".replace("-", "−")
+        axis.append(
+            f'<line class="{cls}" x1="{left}" x2="{width - right}" y1="{sy(v):.1f}" y2="{sy(v):.1f}"/>'
+            f'<text class="fan-ytick" x="{left - 8}" y="{sy(v) + 5:.1f}">{text}</text>'
+        )
+    axis.append(f'<text class="fan-unit" x="{left}" y="12">ONI, °C</text>')
     ticks = []
     for i, (year, month) in enumerate(hist_dates):
-        if month == 1 and year % 2 == 0:
+        if month == 1 and year % year_step == 0:
             ticks.append(
                 f'<text class="fan-tick" x="{sx(i):.1f}" y="{height - 6}">{year}</text>'
             )
@@ -144,14 +153,15 @@ def hero_svg(dates, y, means, sds):
         f'<text class="fan-tick" x="{sx(future_i):.1f}" y="{height - 6}">{future_year}</text>'
     )
 
+    span = "ten" if history_n == HISTORY else "four"
     label = (
-        "Oceanic Nino Index for the last ten years, followed by a 24-month "
+        f"Oceanic Nino Index in degrees Celsius for the last {span} years, followed by a 24-month "
         "forecast whose 50% and 90% intervals widen with the horizon."
     )
     return (
-        f'<svg class="fan-chart" viewBox="0 0 {width} {height}" role="img" aria-label="{label}">'
-        f'<line class="fan-zero" x1="{left}" x2="{width - right}" y1="{sy(0):.1f}" y2="{sy(0):.1f}"/>'
-        f'<polygon class="fan-90" points="{band(xs, lo90, hi90, sy)}"/>'
+        f'<svg class="fan-chart {name}" viewBox="0 0 {width} {height}" role="img" aria-label="{label}">'
+        + "".join(axis)
+        + f'<polygon class="fan-90" points="{band(xs, lo90, hi90, sy)}"/>'
         f'<polygon class="fan-50" points="{band(xs, lo50, hi50, sy)}"/>'
         f'<polyline class="fan-history" points="{history}"/>'
         f'<polyline class="fan-mean" points="{centre}"/>'
@@ -207,7 +217,9 @@ def main():
     )
     print(f"forecast h=1 {means[0]:.2f}, h=12 {means[11]:.2f}, h=24 {means[23]:.2f}")
 
-    svg = hero_svg(dates, y, means, sds)
+    svg = hero_svg(dates, y, means, sds) + hero_svg(
+        dates, y, means, sds, width=600, height=400, history_n=48, name="fan-compact", year_step=1
+    )
     (ROOT / "_fan-chart.md").write_text("```{=html}\n" + svg + "\n```\n", encoding="utf-8")
     thumb = ROOT / "blog" / "posts" / "welcome" / "signal.svg"
     thumb.write_text(thumbnail_svg(y, means, sds), encoding="utf-8")

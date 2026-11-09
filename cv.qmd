@@ -21,7 +21,7 @@ format:
 ---
 
 ::: {.content-visible when-format="typst"}
-Colombia · [jeikosd.github.io](https://jeikosd.github.io) · [github.com/Jeikosd](https://github.com/Jeikosd) · [linkedin.com/in/jeikosd](https://www.linkedin.com/in/jeikosd) · [Google Scholar](https://scholar.google.com/citations?user=ZPe2yT4AAAAJ&hl=en)
+Colombia · [jeikosd.github.io](https://jeikosd.github.io) · [github.com/Jeikosd](https://github.com/Jeikosd) · [LinkedIn](https://www.linkedin.com/in/jeison-mesa-27149ab5) · [Google Scholar](https://scholar.google.com/citations?user=ZPe2yT4AAAAJ&hl=en)
 :::
 
 ::: {.content-visible when-format="html"}
@@ -35,31 +35,31 @@ Colombia · [jeikosd.github.io](https://jeikosd.github.io) · [github.com/Jeikos
 ::: {.content-visible when-format="html"}
 I am a statistician and data scientist with more than ten years of work in R and Python. My degree is in statistics, and my thesis compared estimators of the fractional differencing parameter in long-memory series. Since then the job has mostly been getting models out of a research setting and into production, which in practice has meant PySpark, Parquet, Docker and SQL alongside the statistics.
 
-At CIAT I spent six years modelling how climate change affects crops and other productive sectors, using probabilistic time series and state-space models, and I worked on the statistical models behind the AClimate Colombia seasonal forecasts. As part of the CIAT climate services team I shared in the 2017 UNFCCC Momentum for Change award.
+At CIAT I spent five years modelling how climate change affects crops and other productive sectors, using probabilistic time series and state-space models, and I worked on the statistical models behind the AClimate Colombia seasonal forecasts. As part of the CIAT climate services team I shared in the 2017 UNFCCC Momentum for Change award.
 
-Since 2021 I have worked in industry on churn, segmentation, pricing, forecasting and recommendation, and I led the data science on the DirecTV account. A churn model earns its keep when its drivers become customer segments that a marketing team can write a campaign for, so that is where I put the effort.
+Since 2021 I have worked in industry on churn, segmentation, pricing, forecasting and recommendation for Globant's clients. A churn model earns its keep when its drivers become customer segments that a marketing team can write a campaign for, so that is where I put the effort.
 
-My publications sit mostly in climate and agriculture: seven journal articles and two reports as co-author, with 215 citations on Google Scholar. I currently work as an AI engineer at Globant, with Disney as the client, where I lead parts of the agent design on LLM systems built with LangGraph and Azure OpenAI.
+My publications sit mostly in climate and agriculture: seven journal articles and two reports as co-author. I currently work as an AI engineer at Globant, with Disney as the client, where I work on the agent design of LLM systems built with LangGraph and Azure OpenAI.
 :::
 
 ::: {.content-visible when-format="typst"}
-Statistician and data scientist with more than ten years of work in R and Python. I spent six years at CIAT modelling climate impacts on crops with probabilistic time series and state-space models, shared in the 2017 UNFCCC Momentum for Change award as part of the climate services team, and co-authored seven journal articles (215 citations on Google Scholar). Since 2021 I have worked in industry on churn, segmentation, pricing, forecasting and recommendation, and I led the data science on the DirecTV account. I currently work as an AI engineer at Globant, with Disney as the client, where I lead parts of the agent design on LLM systems.
+Statistician and data scientist with more than ten years of work in R and Python. I spent five years at CIAT modelling climate impacts on crops with probabilistic time series and state-space models, shared in the 2017 UNFCCC Momentum for Change award as part of the climate services team, and co-authored seven journal articles. Since 2021 I have worked in industry on churn, segmentation, pricing, forecasting and recommendation for Globant's clients. I currently work as an AI engineer at Globant, with Disney as the client, where I work on the agent design of LLM systems.
 :::
 
 ## Experience
 
 ### AI Engineer, Globant (client: Disney) {.cv-role dates="Dec 2025 – Present · Remote, Colombia"}
 
-- Lead parts of the agent design on the multi-agent work, including prompt engineering and the contracts between agents.
+- Work on agent design for multi-agent LLM systems, including prompt engineering and the contracts between agents.
 - Designed and implemented a multi-agent system that reads a codebase and writes its documentation. Set the split between deterministic and LLM steps, and tightened the schemas agents exchange so that a bad output fails loudly instead of slipping through.
-- Built a conversational intake agent for internal product requests. It pushes back on vague or solution-first input and flags overlap across teams. Product teams now spend 8 to 10 fewer hours a week on triage, and first-time completion rose from 60% to 90%.
-- Built the ETL and LLM engine behind scheduled weekly executive and bi-weekly tactical reports. Live data from project-management tools goes into one reporting model under extraction rules that keep field-level provenance, and a dry-run gate with risk routing runs before anything is distributed.
+- Built a conversational intake agent for internal product requests. It pushes back on vague or solution-first input and flags overlap across teams.
+- Built the ETL and LLM engine behind scheduled reports. Live data from project-management tools goes into one reporting model under extraction rules that keep field-level provenance, with checks that run before anything is distributed.
 
 Tools: Python, LangGraph, Azure OpenAI, REST APIs, Docker, Git, CI/CD.
 
-### Senior Data Scientist, Globant {.cv-role dates="May 2021 – Dec 2025 · Remote, Colombia"}
+### Data Scientist, Globant {.cv-role dates="May 2021 – Dec 2025 · Remote, Colombia"}
 
-**Sportian account** (Aug 2023 – Dec 2025)
+**Sports-industry client** (Aug 2023 – Dec 2025)
 
 - Built statistical and machine learning models for sports-industry products, mainly pricing and match analytics.
 - Worked with time series, econometric methods and embeddings on historical sales and event data.
@@ -69,9 +69,9 @@ Tools: Python, LangGraph, Azure OpenAI, REST APIs, Docker, Git, CI/CD.
 - Forecast and clustered internal staffing tickets to plan recruiting.
 - Built a semantic search and recommendation tool that matched candidates to tickets on text embeddings, then added a seniority estimation model in PyTorch with an ordinal loss to improve the match. Pipelines ran on Kubeflow.
 
-**DirecTV** (May 2021 – Dec 2021)
+**Media and telecommunications client** (May 2021 – Dec 2021)
 
-- Led data science on the account: subscriber segmentation for DirecTV GO, the churn model and the marketing campaign work.
+- Worked on subscriber segmentation, the churn model and the marketing campaign work.
 - The churn model combined platform usage with sentiment from text, using custom neural networks in PyTorch. Its feature importance fed the segments.
 - Retention and acquisition email campaigns drew on an econometric analysis of subscription pricing and a market basket analysis. Pipelines ran on AWS SageMaker, with data from Athena and S3.
 
@@ -138,7 +138,7 @@ Statistical consultant for engineering theses and statistical assistant at Unive
 
 ## Selected publications
 
-Google Scholar: 215 citations, h-index 7 (8 Nov 2026). Full list on [jeikosd.github.io/publications](https://jeikosd.github.io/publications.html).
+Citation counts are on [Google Scholar](https://scholar.google.com/citations?user=ZPe2yT4AAAAJ&hl=en). Full list on [jeikosd.github.io/publications](https://jeikosd.github.io/publications.html).
 
 - Valencia JB, Guryanov VV, **Mesa-Diez J**, et al. (2023). Assessing the effectiveness of the use of the InVEST annual water yield model for the rivers of Colombia. *Water*, 15(8), 1617. [DOI](https://doi.org/10.3390/w15081617)
 - Ordoñez L, Vallejo E, Amariles D, **Mesa J**, et al. (2022). Applying agroclimatic seasonal forecasts to improve rainfed maize agronomic management in Colombia. *Climate Services*, 28, 100333. [DOI](https://doi.org/10.1016/j.cliser.2022.100333)
