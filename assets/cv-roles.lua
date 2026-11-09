@@ -6,7 +6,7 @@ function Header(el)
   if dates == nil then return nil end
   el.attributes["dates"] = nil
   if quarto.doc.is_format("typst") then
-    el.content:insert(pandoc.RawInline("typst", '#h(1fr)#text(size: 9pt, weight: "regular", fill: rgb("#555a60"))[' .. dates .. "]"))
+    el.content:insert(pandoc.RawInline("typst", '#h(1fr)#text(size: 9pt, weight: "regular", fill: rgb("#62676d"))[' .. dates .. "]"))
   else
     el.content:insert(pandoc.Space())
     el.content:insert(pandoc.Span(pandoc.Str(dates), pandoc.Attr("", { "cv-dates" })))

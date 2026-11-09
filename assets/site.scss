@@ -341,19 +341,6 @@ div.quarto-about-trestles {
 .metric-label { font-size: 0.82rem; color: var(--soft); }
 .pub-list li { margin-bottom: 0.8rem; }
 
-// CV
-h3.cv-role { display: flex; flex-wrap: wrap; align-items: baseline; column-gap: 1rem; margin-top: 1.8rem; }
-h3.cv-role .anchorjs-link { position: absolute; }
-.cv-dates {
-  margin-left: auto;
-  font-family: $font-family-sans-serif;
-  font-size: 0.8rem;
-  font-weight: 400;
-  color: color-mix(in srgb, var(--soft) 80%, var(--ink));
-  white-space: nowrap;
-}
-.cv-download { margin: 0.2rem 0 1.5rem; font-weight: 500; }
-
 // Blog listing
 div.quarto-post {
   padding-bottom: 2rem;
