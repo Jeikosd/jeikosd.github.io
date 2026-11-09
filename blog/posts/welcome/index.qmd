@@ -3,6 +3,7 @@ title: "Hello"
 author: "Jeison Mesa"
 date: "2026-11-08"
 categories: [news]
+image: signal.svg
 description: "What this blog is for and what I plan to write about."
 ---
 

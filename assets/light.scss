@@ -1,0 +1,25 @@
+/*-- scss:defaults --*/
+$body-bg: #fbfaf7;
+$body-color: #33373c;
+$link-color: #1f6f78;
+$primary: #1f6f78;
+$secondary: #c9822b;
+$headings-color: #1b1f24;
+$navbar-bg: #fbfaf7;
+$navbar-fg: #33373c;
+$navbar-hl: #1f6f78;
+$footer-bg: #fbfaf7;
+$footer-fg: #6a7078;
+$code-bg: #eeece6;
+$code-color: #33373c;
+$border-color: #e2dfd7;
+
+/*-- scss:rules --*/
+:root {
+  --ink: #1b1f24;
+  --soft: #62676d;
+  --hairline: #e2dfd7;
+  --accent: #1f6f78;
+  --warm: #c9822b;
+  --panel: #f3f1ea;
+}

@@ -1,24 +1,66 @@
 ---
 title: "Projects"
-description: "Selected work in climate, agriculture and forecasting."
+description: "Public work in forecasting, climate and agriculture, with links to papers and code."
 ---
 
-A short list of public work. Tutorial repositories in R and Python will be added here as I publish them.
+This is the public part of my work, most of it from my years at CIAT. My industry work for Globant's clients isn't public, so it appears only as a summary on the [CV](cv.qmd). Tutorial repositories in R and Python will land here as I publish them.
 
-## AClimate Colombia
+::: {.project}
+### AClimate Colombia
 
-A platform that delivers seasonal climate forecasts and agro-climatic information to support climate risk decisions in Colombia. I worked on the statistical models behind it as part of the team at CIAT.
+[Seasonal forecasting · CIAT · 2020]{.project-meta}
 
-[Paper](https://doi.org/10.1016/j.compag.2020.105486)
+A system that delivers seasonal climate forecasts and agro-climatic information to support climate risk decisions in Colombia. I worked on the statistical models behind it as part of the team at CIAT.
 
-## Agro-climatic hotspots (AgMetGaps)
+[Paper in *Computers and Electronics in Agriculture*](https://doi.org/10.1016/j.compag.2020.105486)
+:::
 
-Part of a project on where climate services could help close yield gaps in agriculture. I worked on the data processing and on the statistical and machine learning models.
+::: {.project}
+### Seasonal forecasts for rainfed maize
 
-[Project site](https://ciat-dapa.github.io/AgMetGaps/)
+[Forecasting · R · CIAT · 2022]{.project-meta}
 
-## Climate change and crops in Latin America and the Caribbean
+Applying agro-climatic seasonal forecasts to rainfed maize management in Colombia. My R code for USAID maize forecasting at CIAT is public, with 126 commits.
 
-Simulations of near-term climate change impacts on major crops, built on crop models and statistical analysis, done at CIAT for the Inter-American Development Bank and USAID.
+[Paper in *Climate Services*](https://doi.org/10.1016/j.cliser.2022.100333) · [Code on GitHub](https://github.com/CIAT-DAPA/usaid_forecast_maize)
+:::
+
+::: {.project}
+### Agro-climatic hotspots (AgMetGaps)
+
+[Machine learning · R · USAID · 2017–2018]{.project-meta}
+
+Where in the world could climate services help close crop yield gaps? I worked on the data processing and on the statistical and machine learning models.
+
+[Project site](https://ciat-dapa.github.io/AgMetGaps/) · [Code on GitHub](https://github.com/CIAT-DAPA/AgMetGaps)
+:::
+
+::: {.project}
+### Climate change and crops in Latin America and the Caribbean
+
+[Crop simulation · DSSAT and ORYZA · IDB and USAID · 2016]{.project-meta}
+
+Simulations of near-term climate change impacts on major crops, built on crop models and statistical analysis.
 
 [AGU abstract](https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/184950)
+:::
+
+::: {.project}
+### Climate vulnerability of *Espeletia* in the páramo
+
+[Climate modelling · 2020 · my most cited paper]{.project-meta}
+
+An assessment of how climate change threatens the *Espeletia* complex on the páramo sky islands of the northern Andes. Co-author.
+
+[Paper in *Frontiers in Ecology and Evolution*](https://doi.org/10.3389/fevo.2020.565708)
+:::
+
+::: {.project}
+### The spectrum of cumbia
+
+[Time series · R · thesis co-direction · 2023]{.project-meta}
+
+An undergraduate thesis in statistics at Universidad del Valle that I co-directed. It extracts fundamental-frequency time series from 30 cumbia songs in R and summarises them with principal component analysis. In Spanish.
+
+[Open access thesis](https://hdl.handle.net/10893/30344)
+:::

@@ -1,34 +1,39 @@
 ---
-title: "Jeison Mesa"
-subtitle: "Statistician, data scientist and AI engineer"
-description: "Time series, state-space models and Kalman filters, plus machine learning and AI engineering, in R and Python."
-about:
-  template: trestles
-  links:
-    - icon: github
-      text: GitHub
-      href: https://github.com/Jeikosd
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/jeikosd
-    - icon: mortarboard
-      text: Google Scholar
-      href: https://scholar.google.com/citations?user=ZPe2yT4AAAAJ
-    - icon: envelope
-      text: Email
-      href: mailto:jeison.mesa@correounivalle.edu.co
+pagetitle: "Jeison Mesa"
+description: "Statistician and data scientist. Time series, state-space models and machine learning in R and Python."
+page-layout: custom
 ---
 
-I'm a statistician. My strongest ground is time series: state-space models, Kalman filters and the other tools for reasoning about data that moves through time. I started in climate and agricultural research, and since 2021 I've been building machine learning and AI systems in industry. I write most of my code in R and Python.
+::: {.hero}
 
-## What I write about
+<h1 class="hero-name">Jeison Mesa</h1>
 
-- **Time series and state-space models**, including Kalman filtering
-- **R and Python tutorials** for data science and statistics
-- **Deep learning, AI engineering and data engineering**, from the practical side
+<p class="hero-role">Statistician and data scientist</p>
 
-## Start here
+{{< include _fan-chart.md >}}
 
-- [Blog](blog/index.qmd)
-- [Projects](projects.qmd)
-- [CV](cv.qmd)
+<p class="hero-caption">The Oceanic Niño Index through September 2026, the El Niño signal behind much of the year-to-year swing in Colombia's rainfall, with a 24-month forecast and its 50% and 90% intervals. A state-space model fitted with a Kalman filter, <a href="https://github.com/Jeikosd/jeikosd.github.io/blob/main/scripts/fan_chart.py">in about 200 lines of Python</a>.</p>
+
+::: {.hero-body}
+
+::: {.hero-bio}
+I'm a statistician from Cali, Colombia. I like data that moves through time, and most of what I know is about reasoning with it: state-space models, Kalman filters and honest uncertainty.
+
+I spent six years at CIAT modelling climate and crops, then moved to industry machine learning. I currently work as an AI engineer. This site is where I write down what I learn, with code in R and Python.
+:::
+
+::: {.hero-links}
+[Read the blog →](blog/index.qmd)
+
+[See my work →](projects.qmd)
+
+[Publications →](publications.qmd)
+
+[CV →](cv.qmd)
+
+<p class="hero-icons"><a href="https://github.com/Jeikosd" aria-label="GitHub"><i class="bi bi-github"></i></a> <a href="https://www.linkedin.com/in/jeikosd" aria-label="LinkedIn"><i class="bi bi-linkedin"></i></a> <a href="https://scholar.google.com/citations?user=ZPe2yT4AAAAJ" aria-label="Google Scholar"><i class="bi bi-mortarboard-fill"></i></a></p>
+:::
+
+:::
+
+:::

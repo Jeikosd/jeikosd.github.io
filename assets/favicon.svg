@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="JM">
-  <rect width="64" height="64" rx="12" fill="#2c3e50"/>
-  <text x="32" y="43" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#ffffff">JM</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32"><rect width="32" height="32" rx="6" fill="#14181c"/><polygon points="14,17 29,6 29,27" fill="#5cbac4" fill-opacity=".45"/><polygon points="14,17 29,11 29,22" fill="#5cbac4" fill-opacity=".85"/><polyline points="3,19 7,13 11,20 14,17" fill="none" stroke="#e8e6df" stroke-width="2.2" stroke-linejoin="round" stroke-linecap="round"/><polyline points="14,17 29,16.5" fill="none" stroke="#e0a45a" stroke-width="2.2" stroke-linecap="round"/></svg>
