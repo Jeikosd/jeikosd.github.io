@@ -3,6 +3,12 @@ title: "Jeison Mesa, Curriculum Vitae"
 description: "Statistician, data scientist and AI engineer with 10+ years of experience in R and Python, from climate research to industry machine learning and LLM agents."
 ---
 
+<style>@media print { .no-print { display: none; } }</style>
+
+::: {.no-print}
+[Download this CV as a PDF](cv/Jeison_Mesa_CV.pdf)
+:::
+
 ## Summary
 
 I'm a statistician, data scientist and AI engineer with more than ten years of experience, working mostly in R and Python. I started in climate and agricultural research, where I learned to build models that other people had to trust and act on. Since 2021 I've applied the same habits to industry problems: customer churn and segmentation, pricing, forecasting, recommendation and text embeddings, and more recently LLM-based agents.
