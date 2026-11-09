@@ -54,9 +54,9 @@ Statistician and data scientist with more than ten years in R and Python. Five y
 ### AI Engineer, Globant (client: Disney) {.cv-role dates="Dec 2025 – Present · Remote, Colombia"}
 
 - Work on agent design for multi-agent LLM systems, including prompt engineering and the contracts between agents.
-- Designed and implemented a multi-agent system that reads a codebase and writes its documentation. Led the prompt engineering and set the split between deterministic and LLM steps, and tightened the schemas agents exchange so that a bad output fails loudly instead of slipping through.
+- Designed and implemented a multi-agent system that reads a codebase and writes its documentation. Led the prompt engineering and set the split between deterministic and LLM steps, and added schema validation of agent outputs so that a bad output fails loudly instead of slipping through.
 - Built a conversational intake agent for internal product requests. It pushes back on vague or solution-first input and flags overlap across teams.
-- Built the ETL and LLM engine behind scheduled reports. Live data from project-management tools goes into one reporting model under extraction rules that keep field-level provenance, with checks that run before anything is distributed.
+- Built the ETL and LLM engine behind scheduled reports. Live data from project-management tools goes into one reporting model under extraction rules that keep field-level provenance, with pre-distribution checks before anything is sent out.
 
 Tools: Python, LangGraph, Azure OpenAI, REST APIs, Docker, Git, CI/CD.
 
@@ -113,17 +113,17 @@ Statistical consultant for engineering theses and statistical assistant at Unive
 
 ## Skills
 
+**Text and LLMs:** agents and multi-agent systems (LangGraph, LangChain), prompt engineering, embeddings and vector search, topic models, Hugging Face, OpenAI and Azure OpenAI, LangSmith, PromptLayer.
+
 **Time series and statistics:** state-space models and Kalman filters, ARIMA, GARCH, long-memory models, Gaussian processes, regression and mixed models, GAMs, experimental design, bootstrap, geostatistics.
 
 **Machine learning:** clustering, dimensionality reduction (PCA, kernel PCA, t-SNE, UMAP), gradient boosting (XGBoost), deep learning (PyTorch), anomaly detection, scikit-learn.
 
-**Text and LLMs:** agents and multi-agent systems (LangGraph, LangChain), prompt engineering, embeddings and vector search, topic models, Hugging Face, OpenAI and Azure OpenAI, LangSmith, PromptLayer.
-
 **Programming:** R (advanced), Python, SQL.
 
-**Data and cloud:** PySpark, sparklyr, Polars, pandas, Parquet, raster and satellite data, Databricks, AWS (SageMaker, Athena, S3), GCP (Vertex AI, BigQuery), Azure (OpenAI, Functions, DevOps).
+**Cloud and data:** PySpark, sparklyr, Polars, pandas, Parquet, raster and satellite data, Databricks, AWS (SageMaker, Athena, S3), GCP (Vertex AI, BigQuery), Azure (OpenAI, Functions, DevOps).
 
-**Engineering:** Git, GitHub, GitLab, Docker, Kubeflow, CI/CD, DVC, Datadog, Linux, Quarto, R Markdown, LaTeX.
+**MLOps and engineering:** Git, GitHub, GitLab, Docker, Kubeflow, CI/CD, DVC, Datadog, Linux, Quarto, R Markdown, LaTeX.
 
 **Domain:** climate impact modelling, crop simulation (DSSAT, ORYZA), churn, customer segmentation, pricing.
 
@@ -133,9 +133,13 @@ Statistical consultant for engineering theses and statistical assistant at Unive
 
 **B.Sc. in Statistics**, Universidad del Valle, Cali (2008 – 2014). Thesis: *Comparison of estimation methods for the fractional differencing parameter in conditionally heteroscedastic long-memory time series.*
 
-**Thesis supervision:** co-director of an undergraduate thesis in Statistics, Universidad del Valle (2023), *Spectral analysis of Colombian genres: La Cumbia* (in Spanish). [Open access](https://hdl.handle.net/10893/30344).
+## Thesis supervision
 
-**Talks:** principal speaker on the thesis at the ESPOL statistics and informatics conference (Ecuador, 2014) and at a Universidad Nacional de Colombia and Universidad del Valle summer school (2013). Co-author at the AGU Fall Meeting (2016).
+Co-director of an undergraduate thesis in Statistics, Universidad del Valle (2023), *Spectral analysis of Colombian genres: La Cumbia* (in Spanish). [Open access](https://hdl.handle.net/10893/30344).
+
+## Talks
+
+Principal speaker on the thesis at the ESPOL statistics and informatics conference (Ecuador, 2014) and at a Universidad Nacional de Colombia and Universidad del Valle summer school (2013). Co-author at the AGU Fall Meeting (2016).
 
 ## Awards
 
@@ -145,6 +149,7 @@ Statistical consultant for engineering theses and statistical assistant at Unive
 
 Citation counts are on [Google Scholar](https://scholar.google.com/citations?user=ZPe2yT4AAAAJ&hl=en). Full list on [jeikosd.github.io/publications](https://jeikosd.github.io/publications.html).
 
+- Valencia JB, Guryanov VV, **Mesa-Diez J**, et al. (2024). Predictive assessment of climate change impact on water yield in the Meta River Basin, Colombia: an InVEST model application. *Hydrology*, 11(2), 25. [DOI](https://doi.org/10.3390/hydrology11020025)
 - Valencia JB, Guryanov VV, **Mesa-Diez J**, et al. (2023). Assessing the effectiveness of the use of the InVEST annual water yield model for the rivers of Colombia. *Water*, 15(8), 1617. [DOI](https://doi.org/10.3390/w15081617)
 - Ordoñez L, Vallejo E, Amariles D, **Mesa J**, et al. (2022). Applying agroclimatic seasonal forecasts to improve rainfed maize agronomic management in Colombia. *Climate Services*, 28, 100333. [DOI](https://doi.org/10.1016/j.cliser.2022.100333)
 - Ochoa-Muñoz AF, Peña-Torres JA, García-Bermúdez CE, Mosquera-Muñoz KF, **Mesa-Diez J** (2022). On characterization of sensory data in presence of missing values: the case of sensory coffee quality assessment. *Ingeniare*, 30(3), 564–573. [DOI](https://doi.org/10.4067/s0718-33052022000300564)
