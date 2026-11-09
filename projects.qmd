@@ -5,6 +5,16 @@ description: "Public work in forecasting, climate and agriculture, with links to
 
 This is the public part of my work, most of it from my years at CIAT. My industry work for Globant's clients isn't public, so it appears only as a summary on the [CV](cv.qmd). Tutorial repositories in R and Python will land here as I publish them.
 
+::: {.project .project-lead}
+### Forecasting the El Niño signal
+
+[State-space model · Kalman filter · Python]{.project-meta}
+
+{{< include _fan-chart.md >}}
+
+<p class="fan-caption">The Oceanic Niño Index through September 2026, the El Niño signal behind much of the year-to-year swing in Colombia's rainfall, with a 24-month forecast and its 50% and 90% intervals. A state-space model fitted with a Kalman filter, <a href="https://github.com/Jeikosd/jeikosd.github.io/blob/main/scripts/fan_chart.py">in about 200 lines of Python</a>.</p>
+:::
+
 ::: {.project}
 ### AClimate Colombia
 

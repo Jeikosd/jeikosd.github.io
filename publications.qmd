@@ -3,11 +3,9 @@ title: "Publications"
 description: "Journal articles, reports and conference contributions on climate, agriculture and statistics."
 ---
 
-Most of my papers come from my years at CIAT, on climate, crops and water. The counts below are from [Google Scholar](https://scholar.google.com/citations?user=ZPe2yT4AAAAJ&hl=en) on 8 November 2026.
+Most of my papers come from my years at CIAT, on climate, crops and water. Citation counts are on [Google Scholar](https://scholar.google.com/citations?user=ZPe2yT4AAAAJ&hl=en).
 
 ::: {.metrics}
-[[215]{.metric-value}[citations]{.metric-label}]{.metric}
-[[7]{.metric-value}[h-index]{.metric-label}]{.metric}
 [[7]{.metric-value}[journal articles]{.metric-label}]{.metric}
 :::
 
@@ -33,7 +31,7 @@ Most of my papers come from my years at CIAT, on climate, crops and water. The c
 ## Conference contributions
 
 ::: {.pub-list}
-- *Enabling the breeding of climate-smart crops* and *Climate services for agriculture: forecast skill no guarantee of success?* Global Climate-Smart Agriculture Conference, Bali, 2019 (co-author, [abstract book](https://globalcsaconference.org/wp-content/uploads/2019/10/ABSTRACT-BOOK-FINAL.pdf)).
+- *Enabling the breeding of climate-smart crops* and *Climate services for agriculture: forecast skill no guarantee of success?* Global Climate-Smart Agriculture Conference, Bali, 2019 (co-author).
 - *Servicios agro-climáticos para la agricultura: ¿sueño o realidad?* Congreso SOCOLEN, Cali, 2018 (co-author).
 - *Simulated near-term climate change impacts on major crops across Latin America and the Caribbean.* AGU Fall Meeting, San Francisco, 2016, GC53F-06 (co-author, [abstract](https://agu.confex.com/agu/fm16/meetingapp.cgi/Paper/184950)).
 - *Comparación de métodos de estimación para el parámetro de diferenciación fraccional en series de tiempo de memoria larga condicionalmente heterocedásticas.* Jornadas en Estadística e Informática, ESPOL, Guayaquil, 2014, and Escuela de Verano, Universidad Nacional de Colombia (Medellín) and Universidad del Valle, 2013 (speaker).

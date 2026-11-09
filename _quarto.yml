@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - assets/fonts/OFL-*.txt
+    - assets/hero.js
   render:
     - "*.qmd"
     - "blog/**/*.qmd"
@@ -28,7 +31,7 @@ website:
         href: https://github.com/Jeikosd
         aria-label: GitHub
       - icon: linkedin
-        href: https://www.linkedin.com/in/jeikosd
+        href: https://www.linkedin.com/in/jeison-mesa-27149ab5
         aria-label: LinkedIn
   page-footer:
     border: false

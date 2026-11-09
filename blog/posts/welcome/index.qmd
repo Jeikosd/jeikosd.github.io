@@ -4,6 +4,7 @@ author: "Jeison Mesa"
 date: "2026-11-08"
 categories: [news]
 image: signal.svg
+image-alt: "A forecast fan chart: a black history line continues as an orange forecast with widening shaded bands."
 description: "What this blog is for and what I plan to write about."
 ---
 
