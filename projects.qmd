@@ -9,7 +9,7 @@ format:
 This is the public part of my work, most of it from my years at CIAT. My industry work for Globant's clients isn't public, so it appears only as a summary on the [CV](cv.qmd).
 
 ::: {.project .project-lead}
-### Forecasting the El Niño signal
+## Forecasting the El Niño signal
 
 [State-space model · Kalman filter · Python]{.project-meta}
 
@@ -19,7 +19,7 @@ This is the public part of my work, most of it from my years at CIAT. My industr
 :::
 
 ::: {.project}
-### AClimate Colombia
+## AClimate Colombia
 
 [Seasonal forecasting · CIAT · 2020]{.project-meta}
 
@@ -29,7 +29,7 @@ A system that delivers seasonal climate forecasts and agro-climatic information 
 :::
 
 ::: {.project}
-### Seasonal forecasts for rainfed maize
+## Seasonal forecasts for rainfed maize
 
 [Forecasting · R · CIAT · 2022]{.project-meta}
 
@@ -39,7 +39,7 @@ Applying agro-climatic seasonal forecasts to rainfed maize management in Colombi
 :::
 
 ::: {.project}
-### Agro-climatic hotspots (AgMetGaps)
+## Agro-climatic hotspots (AgMetGaps)
 
 [Machine learning · R · USAID · 2017–2018]{.project-meta}
 
@@ -49,7 +49,7 @@ Where in the world could climate services help close crop yield gaps? I worked o
 :::
 
 ::: {.project}
-### Climate change and crops in Latin America and the Caribbean
+## Climate change and crops in Latin America and the Caribbean
 
 [Crop simulation · DSSAT and ORYZA · IDB and USAID · 2016]{.project-meta}
 
@@ -59,7 +59,7 @@ Simulations of near-term climate change impacts on major crops, built on crop mo
 :::
 
 ::: {.project}
-### Climate vulnerability of *Espeletia* in the páramo
+## Climate vulnerability of *Espeletia* in the páramo
 
 [Climate modelling · 2020]{.project-meta}
 
@@ -69,7 +69,7 @@ An assessment of how climate change threatens the *Espeletia* complex on the pá
 :::
 
 ::: {.project}
-### The spectrum of cumbia
+## The spectrum of cumbia
 
 [Time series · R · thesis co-direction · 2023]{.project-meta}
 

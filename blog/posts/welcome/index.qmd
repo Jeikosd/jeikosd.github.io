@@ -3,8 +3,8 @@ title: "Hello"
 author: "Jeison Mesa"
 date: "2026-11-08"
 categories: [news]
-image: signal.svg
-image-alt: "A forecast fan chart: a black history line continues as an orange forecast with widening shaded bands."
+image: ../../../assets/social-card.png
+image-alt: "Jeison Mesa, statistician and data scientist"
 description: "What this blog is for and what I plan to write about."
 ---
 

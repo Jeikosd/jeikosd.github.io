@@ -1,0 +1,5 @@
+---
+title: "Page not found"
+---
+
+That page does not exist. Try the [home page](index.qmd), the [blog](blog/index.qmd) or [projects](projects.qmd).

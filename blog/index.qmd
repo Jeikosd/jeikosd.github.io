@@ -6,7 +6,7 @@ listing:
   sort: "date desc"
   type: default
   image-align: left
-  fields: [image, title, description, date]
+  fields: [image, title, description, date, reading-time]
   date-format: long
   categories: false
   feed: true

@@ -1,9 +1,11 @@
+lang: en
+
 project:
   type: website
   output-dir: docs
   resources:
     - assets/fonts/OFL-*.txt
-    - assets/galton.js
+    - assets/enso-spiral.js
   render:
     - "*.qmd"
     - "blog/**/*.qmd"
@@ -50,7 +52,12 @@ format:
       light: [assets/light.scss, assets/site.scss]
       dark: [assets/dark.scss, assets/site.scss]
     respect-user-color-scheme: true
+    canonical-url: true
     toc: false
     grid:
       body-width: 760px
     highlight-style: github
+    include-in-header:
+      - text: |
+          <link rel="alternate" type="application/rss+xml" title="Jeison Mesa" href="https://jeikosd.github.io/blog/index.xml">
+          <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Jeison Mesa","url":"https://jeikosd.github.io","jobTitle":"Statistician and data scientist","sameAs":["https://github.com/Jeikosd","https://www.linkedin.com/in/jeison-mesa-27149ab5","https://scholar.google.com/citations?user=ZPe2yT4AAAAJ"]}</script>
