@@ -52,8 +52,8 @@ I'm Jeison (it sounds like "Jason"), a statistician and an AI engineer at Globan
 
 I studied statistics at Universidad del Valle, and my thesis compared ways of estimating the fractional differencing parameter in long-memory time series. I then spent five years at CIAT, the International Center for Tropical Agriculture, on climate and agriculture: crop simulations, the models behind AClimate Colombia's seasonal forecasts, a shared UNFCCC Momentum for Change award in 2017, and papers in *Climate Services*, *Frontiers in Ecology and Evolution* and *Computers and Electronics in Agriculture*. In 2020 and 2021 I taught time series, probability and statistics at Univalle and Universidad Católica. Since 2021 I have been at Globant, on churn, segmentation, pricing, forecasting and recommendation. The thread through it all is state-space models, Kalman filters and honest uncertainty.
 
-I live in Cali, Colombia, and my time series curiosity has even reached music, through a thesis I co-directed on the spectral analysis of cumbia. <!-- OWNER: add one personal line (hobbies, family, coffee...) or delete -->
+I live in Cali, Colombia, and my time series curiosity has even reached music, through a thesis I co-directed on the spectral analysis of cumbia.
 
-This site is built with Quarto and hosted on GitHub Pages, and the source is on [GitHub](https://github.com/Jeikosd/jeikosd.github.io). Posts are CC BY 4.0 unless stated otherwise. <!-- OWNER: confirm licence --> The figure next to my name is a simulation of a Kalman filter tracking a hidden state from noisy data.
+This site is built with Quarto and hosted on GitHub Pages, and the source is on [GitHub](https://github.com/Jeikosd/jeikosd.github.io). Posts are CC BY 4.0 unless stated otherwise. The figure next to my name is a simulation of a Kalman filter tracking a hidden state from noisy data.
 
 More in my [CV](cv.qmd) and [Publications](publications.qmd).
