@@ -14,7 +14,7 @@
   ..rest,
   doc,
 ) = {
-  set document(title: "Jeison Mesa Diez, CV", author: "Jeison Mesa Diez")
+  set document(title: "Jeison Mesa, CV", author: "Jeison Mesa")
   set page(numbering: none)
   set text(lang: lang, region: region, size: fontsize, fill: ink)
   set text(font: font) if font != none
